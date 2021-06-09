@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: "hec-marketing",
+    title: "HEC Partners",
+    siteUrl: `https://www.hecpartners.com`,
   },
   plugins: [
     "gatsby-plugin-styled-components",
