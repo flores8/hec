@@ -1,10 +1,12 @@
 import * as React from "react";
+import { gray, primaryFont } from "../utils";
 
 // styles
 const pageStyles = {
-  color: "#232129",
+  color: `${gray.six}`,
+  background: `${gray.one}`,
   padding: 96,
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
+  fontFamily: `${primaryFont}`,
 };
 const headingStyles = {
   marginTop: 0,

@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "HEC Partners",
-    siteUrl: `https://www.hecpartners.com`,
+    siteUrl: `https://www.example.com`,
   },
   plugins: [
     "gatsby-plugin-styled-components",
@@ -38,6 +38,13 @@ module.exports = {
         path: "./src/pages/",
       },
       __key: "pages",
+    },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [`work sans \:400,500,700,700i`],
+        display: "swap",
+      },
     },
   ],
 };

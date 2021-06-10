@@ -26,6 +26,10 @@ var plugins = [{
       name: 'gatsby-plugin-mdx',
       plugin: require('/Users/lauralee/code/hec/node_modules/gatsby-plugin-mdx/gatsby-ssr'),
       options: {"plugins":[],"extensions":[".mdx"],"defaultLayouts":{},"gatsbyRemarkPlugins":[],"lessBabel":false,"remarkPlugins":[],"rehypePlugins":[],"mediaTypes":["text/markdown","text/x-markdown"],"root":"/Users/lauralee/code/hec"},
+    },{
+      name: 'gatsby-plugin-google-fonts',
+      plugin: require('/Users/lauralee/code/hec/node_modules/gatsby-plugin-google-fonts/gatsby-ssr'),
+      options: {"plugins":[],"fonts":["work sans :400,500,700,700i"],"display":"swap"},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
