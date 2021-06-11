@@ -15,10 +15,6 @@ var plugins = [{
       plugin: require('/Users/lauralee/code/hec/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      name: 'gatsby-plugin-sitemap',
-      plugin: require('/Users/lauralee/code/hec/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
-      options: {"plugins":[],"output":"/sitemap","createLinkInHead":true,"entryLimit":45000,"query":"{ site { siteMetadata { siteUrl } } allSitePage { nodes { path } } }","excludes":[]},
-    },{
       name: 'gatsby-plugin-manifest',
       plugin: require('/Users/lauralee/code/hec/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[],"icon":"src/images/icon.png","legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","crossOrigin":"anonymous","include_favicon":true,"cacheDigest":"53aa06cf17e4239d0dba6ffd09854e02"},
