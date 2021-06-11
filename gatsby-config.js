@@ -22,7 +22,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        icon: "/favicon.svg",
+        icon: "src/images/favicon.ico",
       },
     },
     "gatsby-plugin-mdx",
