@@ -1,5 +1,6 @@
 import * as React from "react";
 import { gray, primaryFont } from "../utils";
+import Seo from "../components/seo";
 
 // styles
 const pageStyles = {
@@ -20,16 +21,19 @@ const paragraphStyles = {
 // markup
 const IndexPage = () => {
   return (
-    <main style={pageStyles}>
-      <title>Home Page</title>
-      <h1 style={headingStyles}>HEC Home page</h1>
-      <p style={paragraphStyles}>
-        More to come soon...{" "}
-        <span role="img" aria-label="Sunglasses smiley emoji">
-          😎
-        </span>
-      </p>
-    </main>
+    <>
+      <Seo title="Helping you with all your compliance needs" />
+      <main style={pageStyles}>
+        <title>Home Page</title>
+        <h1 style={headingStyles}>HEC Home page</h1>
+        <p style={paragraphStyles}>
+          More to come soon...{" "}
+          <span role="img" aria-label="Sunglasses smiley emoji">
+            😎
+          </span>
+        </p>
+      </main>
+    </>
   );
 };
 

@@ -1,7 +1,13 @@
 module.exports = {
   siteMetadata: {
-    title: "HEC Partners",
-    siteUrl: `https://www.example.com`,
+    title: "Higher Education Compliance Partners",
+    titleTemplate: "%s | HEC Partners",
+    description:
+      "We are a higher education consultancy and training partner to maintain compliance and/or administration across your institution, so you can focus on your students.",
+    url: `https://www.hecpartners.com`,
+    author: "HEC Partners",
+    image: "/hec-partners.png",
+    contentType: "website",
   },
   plugins: [
     "gatsby-plugin-styled-components",
