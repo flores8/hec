@@ -1,14 +1,9 @@
 import * as React from "react";
-import { gray, primaryFont } from "../utils";
 import Seo from "../components/seo";
+import Layout from "../components/MainLayout/Layout";
 
 // styles
-const pageStyles = {
-  color: `${gray.six}`,
-  background: `${gray.one}`,
-  padding: 96,
-  fontFamily: `${primaryFont}`,
-};
+
 const headingStyles = {
   marginTop: 0,
   marginBottom: 64,
@@ -23,8 +18,7 @@ const IndexPage = () => {
   return (
     <>
       <Seo title="Helping you with all your compliance needs" />
-      <main style={pageStyles}>
-        <title>Home Page</title>
+      <Layout>
         <h1 style={headingStyles}>HEC Home page</h1>
         <p style={paragraphStyles}>
           More to come soon...{" "}
@@ -32,7 +26,7 @@ const IndexPage = () => {
             😎
           </span>
         </p>
-      </main>
+      </Layout>
     </>
   );
 };

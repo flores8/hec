@@ -6,6 +6,7 @@ export const spacing = {
   s2: "8px",
   s3: "12px",
   s4: "16px",
+  s20: "20px",
   s5: "24px",
   s6: "32px",
   s7: "48px",
@@ -29,4 +30,4 @@ export const font = {
   s7: "2.827rem", // 45.23px
   s8: "4rem", // 64px
   s9: "5.653rem", // 90.44px
-}
+};

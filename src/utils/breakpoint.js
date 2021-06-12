@@ -5,3 +5,11 @@ export const screen = {
   xlg: "only screen and (max-width: 64rem)", // 1024px
   xxlg: "only screen and (max-width: 81.25rem)", // 1300px
 };
+
+export const width = {
+  sm: "37.5rem",
+  md: "48rem",
+  lg: "57.5rem",
+  xlg: "64rem",
+  xxlg: "81.25rem",
+};
