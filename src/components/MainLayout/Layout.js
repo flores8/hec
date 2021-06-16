@@ -1,7 +1,7 @@
 import React from "react";
 import TopNav from "./TopNav";
 import styled from "styled-components";
-import { gray, primaryFont } from "../../utils";
+import { GlobalStyle, gray, primaryFont } from "../../utils";
 
 const Layout = ({ children }) => {
   return (
@@ -9,6 +9,7 @@ const Layout = ({ children }) => {
       <div>
         <TopNav />
         <BodyWrapper>{children}</BodyWrapper>
+        <GlobalStyle />
       </div>
     </>
   );
