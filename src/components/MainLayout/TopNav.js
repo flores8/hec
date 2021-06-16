@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { width, font, gray, blue, spacing } from "../../utils";
+import { width, font, gray, blue, spacing, borderRadius } from "../../utils";
 import { Link } from "gatsby";
 import Logo from "./Logo";
 
@@ -25,7 +25,7 @@ const TopNav = () => {
         <Link to="/blog/" activeClassName="active">
           Blog
         </Link>
-        <Link to="/contact/" activeClassName="active">
+        <Link to="/contact/" activeClassName="active" className="contact">
           Contact
         </Link>
       </NavLinks>
@@ -67,6 +67,20 @@ const NavLinks = styled.nav`
     &.active:hover {
       border-block-end: 2px solid ${blue.four};
       color: ${gray.six};
+    }
+    &.contact {
+      border: 2px solid ${gray.five};
+      border-block-end: 2px solid ${gray.five};
+      padding: ${spacing.s3} ${spacing.s5};
+      border-radius: ${borderRadius.pill};
+      margin-inline-start: ${spacing.s4};
+      &:hover,
+      &.active,
+      &.active:hover {
+        background: ${blue.four};
+        border: 2px solid ${blue.four};
+        color: ${gray.white};
+      }
     }
   }
 `;
