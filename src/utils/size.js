@@ -32,3 +32,6 @@ export const font = {
   s8: "4rem", // 64px
   s9: "5.653rem", // 90.44px
 };
+export const borderRadius = {
+  pill: "50px",
+};
