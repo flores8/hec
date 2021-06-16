@@ -37,12 +37,12 @@ const Header = styled.header`
   display: flex;
   flex: 0 1 auto;
   align-items: center;
-  margin-inline-start: auto;
-  margin-inline-end: auto;
+  margin: ${spacing.s6} auto;
   max-inline-size: ${width.xxlg};
 `;
 const LogoWrapper = styled.div`
   inline-size: 20rem;
+  padding-inline-start: ${spacing.s5};
 `;
 const NavLinks = styled.nav`
   width: 61.25rem;
