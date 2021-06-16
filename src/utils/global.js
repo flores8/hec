@@ -104,6 +104,7 @@ select {
 }
 
 body {
+  background: ${gray.white};
   color: ${gray.five};
   line-height: 1.6;
   font-family: ${primaryFont};
