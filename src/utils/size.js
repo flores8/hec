@@ -25,6 +25,7 @@ export const font = {
   s2: "0.563rem", // 9px
   s3: "0.75rem", // 12px
   s4: "1rem", // 16px
+  s20: "1.25rem", // 20px
   s5: "1.5rem", // 24px
   s6: "2rem", // 32px
   s7: "2.827rem", // 45.23px

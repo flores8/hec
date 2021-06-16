@@ -1,6 +1,7 @@
 import { createGlobalStyle } from "styled-components";
-import { spacing } from "./size";
+import { spacing, font } from "./size";
 import { gray, blue } from "./colors";
+import { primaryFont } from "./typography";
 
 export const GlobalStyle = createGlobalStyle`
 /* ################## */
@@ -100,6 +101,13 @@ select {
 ::selection {
   color: ${gray.six};
   background: ${blue.three};
+}
+
+body {
+  color: ${gray.five};
+  line-height: 1.6;
+  font-family: ${primaryFont};
+  font-size: ${font.s5};
 }
 
 /* ################## */
