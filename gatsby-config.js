@@ -44,5 +44,18 @@ module.exports = {
       },
       __key: "pages",
     },
+    {
+      resolve: `gatsby-plugin-google-fonts-v2`,
+      options: {
+        display: "swap",
+        variable: true,
+        fonts: [
+          {
+            family: "Work Sans",
+            weights: ["400", "500", "700", ["700"]],
+          },
+        ],
+      },
+    },
   ],
 };
