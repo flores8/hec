@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 import {
   font,
   width,
@@ -42,6 +42,13 @@ const TopNav = () => {
   );
 };
 
+export default TopNav;
+
+const FadeInAnimation = keyframes`
+0% {opacity: 0;}
+100% {opacity: 1;}
+`;
+
 const Header = styled.header`
   display: flex;
   flex: 0 1 auto;
@@ -52,6 +59,10 @@ const Header = styled.header`
   margin-inline-end: auto;
   max-inline-size: ${width.xxlg};
   position: relative;
+  animation-name: ${FadeInAnimation};
+  animation-delay: 1s;
+  animation-duration: 1s;
+  animation-fill-mode: both;
 `;
 const LogoWrapper = styled.div`
   inline-size: 16rem;
@@ -214,5 +225,3 @@ const Close = styled.div`
     font-size: ${font.s7};
   }
 `;
-
-export default TopNav;
