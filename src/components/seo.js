@@ -42,11 +42,6 @@ const SEO = ({ title, description, image, author, contentType }) => {
       <meta name="twitter:title" content={seo.title} />
       <meta name="twitter:description" content={seo.description} />
       <meta name="twitter:image" content={seo.image} />
-      <link rel="preconnect" href="https://fonts.gstatic.com" />
-      <link
-        href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,700;1,700&display=swap"
-        rel="stylesheet"
-      ></link>
 
       <title>{seo.title}</title>
     </Helmet>
