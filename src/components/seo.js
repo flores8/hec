@@ -42,10 +42,11 @@ const SEO = ({ title, description, image, author, contentType }) => {
       <meta name="twitter:title" content={seo.title} />
       <meta name="twitter:description" content={seo.description} />
       <meta name="twitter:image" content={seo.image} />
-      <meta
-        name="ahrefs-site-verification"
-        content="660d1779d0c6babd6cda432132ea5bffbbee37aada155d27b00c40991922d78e"
-      ></meta>
+      <link rel="preconnect" href="https://fonts.gstatic.com" />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,700;1,700&display=swap"
+        rel="stylesheet"
+      ></link>
 
       <title>{seo.title}</title>
     </Helmet>

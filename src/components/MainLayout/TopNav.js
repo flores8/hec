@@ -222,6 +222,7 @@ const Close = styled.div`
     background: ${blue.one};
   }
   svg {
-    font-size: ${font.s7};
+    font-size: ${font.s6};
+    color: ${gray.five};
   }
 `;
