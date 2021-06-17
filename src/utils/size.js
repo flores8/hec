@@ -33,5 +33,7 @@ export const font = {
   s9: "5.653rem", // 90.44px
 };
 export const borderRadius = {
+  small: "5px",
   pill: "50px",
+  circle: "50%",
 };
