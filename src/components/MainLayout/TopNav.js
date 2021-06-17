@@ -54,15 +54,18 @@ const Header = styled.header`
   position: relative;
 `;
 const LogoWrapper = styled.div`
-  inline-size: 20rem;
+  inline-size: 16rem;
   padding-inline-start: ${spacing.s5};
   padding-block-start: ${spacing.s3};
+  @media ${screen.md} {
+    inline-size: 20rem;
+  }
   @media ${screen.xlg} {
     inline-size: 22rem;
   }
 `;
 const Menu = styled.div`
-  width: 36px;
+  width: 31px;
   height: 4px;
   border-radius: ${borderRadius.small};
   background: ${gray.five};
@@ -80,20 +83,20 @@ const Menu = styled.div`
   }
   &:before {
     top: -10px;
-    width: 30px;
+    width: 25px;
   }
   &:after {
     top: 10px;
-    width: 21px;
+    width: 16px;
   }
 `;
 const Hamburger = styled.button`
   border: none;
   background: ${gray.one};
-  height: 75px;
-  width: 75px;
+  height: ${spacing.s8};
+  width: ${spacing.s8};
   position: absolute;
-  right: 24px;
+  right: ${spacing.s5};
   border-radius: ${borderRadius.circle};
   display: grid;
   align-items: center;
@@ -108,11 +111,11 @@ const Hamburger = styled.button`
     background: ${blue.five};
     &:before {
       background: ${blue.five};
-      width: 21px;
+      width: 16px;
     }
     &:after {
       background: ${blue.five};
-      width: 30px;
+      width: 25px;
     }
   }
 `;
@@ -174,7 +177,6 @@ const MobileNav = styled.button`
   min-height: 100vh;
   background: ${gray.white};
   padding: 0;
-  padding-block-start: ${spacing.s9};
   a {
     display: block;
     text-align: center;
