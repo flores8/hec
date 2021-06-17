@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 import {
   font,
@@ -12,8 +12,10 @@ import {
 import { Link } from "gatsby";
 import Logo from "./Logo";
 import NavLinks from "./NavLinks";
+import { FiX } from "react-icons/fi";
 
 const TopNav = () => {
+  const [open, setOpen] = useState(false);
   return (
     <Header>
       <LogoWrapper>
@@ -21,12 +23,21 @@ const TopNav = () => {
           <Logo />
         </Link>
       </LogoWrapper>
-      <Hamburger>
+      <Hamburger onClick={() => setOpen(!open)}>
         <Menu></Menu>
       </Hamburger>
       <LinkStyles>
         <NavLinks />
       </LinkStyles>
+      <MobileNav
+        onClick={() => setOpen(!open)}
+        className={`${open ? "show" : "hide"}`}
+      >
+        <Close>
+          <FiX />
+        </Close>
+        <NavLinks />
+      </MobileNav>
     </Header>
   );
 };
@@ -35,7 +46,10 @@ const Header = styled.header`
   display: flex;
   flex: 0 1 auto;
   align-items: center;
-  margin: ${spacing.s4} auto;
+  padding-block-start: ${spacing.s4};
+  padding-block-end: ${spacing.s4};
+  margin-inline-start: auto;
+  margin-inline-end: auto;
   max-inline-size: ${width.xxlg};
   position: relative;
 `;
@@ -73,7 +87,8 @@ const Menu = styled.div`
     width: 21px;
   }
 `;
-const Hamburger = styled.div`
+const Hamburger = styled.button`
+  border: none;
   background: ${gray.one};
   height: 75px;
   width: 75px;
@@ -144,6 +159,57 @@ const LinkStyles = styled.nav`
         color: ${gray.white};
       }
     }
+  }
+`;
+
+const MobileNav = styled.button`
+  &.hide {
+    display: none;
+  }
+  border: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100vh;
+  background: ${gray.white};
+  padding: 0;
+  padding-block-start: ${spacing.s9};
+  a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: ${gray.five};
+    padding-block-start: ${spacing.s5};
+    padding-block-end: ${spacing.s5};
+    &:hover {
+      background: ${blue.one};
+    }
+    &.active {
+      background: ${blue.one};
+    }
+  }
+`;
+
+const Close = styled.div`
+  position: absolute;
+  top: ${spacing.s4};
+  right: ${spacing.s6};
+  background: ${gray.one};
+  border-radius: ${borderRadius.circle};
+  width: ${spacing.s8};
+  height: ${spacing.s8};
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+  &:hover {
+    cursor: pointer;
+    transform: rotate(90deg);
+    background: ${blue.one};
+  }
+  svg {
+    font-size: ${font.s7};
   }
 `;
 

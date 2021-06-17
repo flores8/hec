@@ -110,6 +110,9 @@ body {
   font-family: ${primaryFont};
   font-size: ${font.s5};
 }
+a {
+  transition: 0.3s;
+}
 
 /* ################## */
 /* END Global Styles */
