@@ -48,13 +48,17 @@ const Header = styled.header`
   display: flex;
   flex: 0 1 auto;
   align-items: center;
-  margin: ${spacing.s6} auto;
+  margin: ${spacing.s4} auto;
   max-inline-size: ${width.xxlg};
   position: relative;
 `;
 const LogoWrapper = styled.div`
-  inline-size: 22rem;
+  inline-size: 26rem;
   padding-inline-start: ${spacing.s5};
+  padding-block-start: ${spacing.s3};
+  @media ${screen.xlg} {
+    inline-size: 22rem;
+  }
 `;
 const Menu = styled.div`
   width: 36px;
