@@ -50,6 +50,7 @@ const FadeInAnimation = keyframes`
 `;
 
 const Header = styled.header`
+  z-index: 1;
   display: flex;
   flex: 0 1 auto;
   align-items: center;

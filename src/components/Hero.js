@@ -1,6 +1,7 @@
 import React from "react";
 import styled, { keyframes } from "styled-components";
 import { spacing, font, gray, blue } from "../utils";
+import { Link } from "gatsby";
 
 const Hero = () => {
   return (
@@ -11,8 +12,9 @@ const Hero = () => {
         </Headline>
         <Subtitle>
           We are a higher education consultancy and training partner to maintain
-          compliance and/or administration across your institution, so you can
+          compliance and administration across your institution, so you can
           focus on your students.
+          <Link to="/about">Learn more</Link>
         </Subtitle>
       </Content>
     </Wrapper>
