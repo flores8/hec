@@ -7,16 +7,16 @@ const NavLinks = () => {
       <Link to="/" activeClassName="active">
         Home
       </Link>
-      <Link to="/about/" activeClassName="active">
+      <Link to="/about" activeClassName="active">
         About
       </Link>
-      <Link to="/services/" activeClassName="active">
+      <Link to="/services" activeClassName="active">
         Services
       </Link>
-      <Link to="/blog/" activeClassName="active">
+      <Link to="/blog" activeClassName="active">
         Blog
       </Link>
-      <Link to="/contact/" activeClassName="active" className="contact">
+      <Link to="/contact" activeClassName="active" className="contact">
         Contact
       </Link>
     </>
