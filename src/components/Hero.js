@@ -1,7 +1,7 @@
 import React from "react";
 import styled, { keyframes } from "styled-components";
 import { spacing, font, gray, blue } from "../utils";
-import { Link } from "gatsby";
+import SlideUpLink from "../components/SlideUpLink";
 
 const Hero = () => {
   return (
@@ -14,7 +14,7 @@ const Hero = () => {
           We are a higher education consultancy and training partner to maintain
           compliance and administration across your institution, so you can
           focus on your students.
-          <Link to="/about">Learn more</Link>
+          <SlideUpLink />
         </Subtitle>
       </Content>
     </Wrapper>
