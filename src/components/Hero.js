@@ -3,18 +3,17 @@ import styled, { keyframes } from "styled-components";
 import { spacing, font, gray, blue } from "../utils";
 import SlideUpLink from "../components/SlideUpLink";
 
-const Hero = () => {
+const Hero = ({ headline, subtitle, link, linkTitle, arrow }) => {
   return (
     <Wrapper>
       <Content className="flow">
         <Headline>
-          Compliance matters<span>.</span>
+          {headline}
+          <span>.</span>
         </Headline>
         <Subtitle>
-          We are a higher education consultancy and training partner to maintain
-          compliance and administration across your institution, so you can
-          focus on your students.
-          <SlideUpLink link={"/about"} title={"Learn more"} arrow={"true"} />
+          {subtitle}
+          <SlideUpLink link={link} title={linkTitle} arrow={arrow} />
         </Subtitle>
       </Content>
     </Wrapper>
