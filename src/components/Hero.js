@@ -1,19 +1,29 @@
 import React from "react";
 import styled, { keyframes } from "styled-components";
-import { spacing, font, gray, blue } from "../utils";
+import { spacing, font, gray, blue, yellow, red, teal } from "../utils";
 import SlideUpLink from "../components/SlideUpLink";
 
-const Hero = ({ headline, subtitle, link, linkTitle, arrow }) => {
+const Hero = ({
+  headline,
+  headlinePeriod,
+  subtitle,
+  includeLink,
+  link,
+  linkTitle,
+  arrow,
+}) => {
   return (
     <Wrapper>
       <Content className="flow">
         <Headline>
           {headline}
-          <span>.</span>
+          <span className={headlinePeriod}>.</span>
         </Headline>
         <Subtitle>
           {subtitle}
-          <SlideUpLink link={link} title={linkTitle} arrow={arrow} />
+          {includeLink === "true" && (
+            <SlideUpLink link={link} title={linkTitle} arrow={arrow} />
+          )}
         </Subtitle>
       </Content>
     </Wrapper>
@@ -51,7 +61,18 @@ export const Headline = styled.h1`
   animation-duration: 1s;
   animation-fill-mode: both;
   span {
-    color: ${blue.five};
+    &.blue {
+      color: ${blue.five};
+    }
+    &.yellow {
+      color: ${yellow.five};
+    }
+    &.red {
+      color: ${red.five};
+    }
+    &.teal {
+      color: ${teal.five};
+    }
   }
 `;
 
