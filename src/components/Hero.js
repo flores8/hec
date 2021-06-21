@@ -14,7 +14,7 @@ const Hero = () => {
           We are a higher education consultancy and training partner to maintain
           compliance and administration across your institution, so you can
           focus on your students.
-          <SlideUpLink />
+          <SlideUpLink link={"/about"} title={"Learn more"} arrow={"true"} />
         </Subtitle>
       </Content>
     </Wrapper>
