@@ -1,7 +1,7 @@
 import React from "react";
 import TopNav from "./TopNav";
-import styled from "styled-components";
-import { GlobalStyle, gray, width, spacing } from "../../utils";
+import styled, { keyframes } from "styled-components";
+import { GlobalStyle, gray, width, spacing, transition } from "../../utils";
 
 const Layout = ({ children }) => {
   return (
@@ -22,7 +22,7 @@ const BodyWrapper = styled.main`
   max-inline-size: ${width.xxlg};
   padding-inline-start: ${spacing.s5};
   padding-inline-end: ${spacing.s5};
-  transition-duration: 0.5s;
+  transition-duration: ${transition.slow};
   transition-property: transform;
 `;
 

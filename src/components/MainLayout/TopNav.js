@@ -8,6 +8,7 @@ import {
   spacing,
   borderRadius,
   screen,
+  transition,
 } from "../../utils";
 import { Link } from "gatsby";
 import Logo from "./Logo";
@@ -45,8 +46,8 @@ const TopNav = () => {
 export default TopNav;
 
 const FadeInAnimation = keyframes`
-0% {opacity: 0;}
-100% {opacity: 1;}
+  0% {opacity: 0;}
+  100% {opacity: 1;}
 `;
 
 const Header = styled.header`
@@ -85,7 +86,7 @@ const Menu = styled.div`
   border-radius: ${borderRadius.small};
   background: ${gray.five};
   position: relative;
-  transition: 0.3s;
+  transition: ${transition.reg};
   &:before,
   &:after {
     content: "";
@@ -94,7 +95,7 @@ const Menu = styled.div`
     position: absolute;
     right: 0;
     background: ${gray.five};
-    transition: 0.3s;
+    transition: ${transition.reg};
   }
   &:before {
     top: -10px;
@@ -153,7 +154,7 @@ const LinkStyles = styled.nav`
     display: inline-block;
     margin-inline-start: ${spacing.s5};
     margin-inline-end: ${spacing.s5};
-    transition: 0.3s;
+    transition: ${transition.reg};
     &:hover {
       border-block-end: 2px solid ${blue.two};
       color: ${gray.five};
@@ -222,7 +223,7 @@ const Close = styled.div`
   display: grid;
   align-items: center;
   justify-content: center;
-  transition: 0.3s;
+  transition: ${transition.reg};
   &:hover {
     cursor: pointer;
     transform: rotate(90deg);

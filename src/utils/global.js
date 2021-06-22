@@ -1,6 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 import { spacing, font } from "./size";
-import { gray, blue } from "./colors";
+import { gray, blue, transition } from "./colors";
 import { primaryFont } from "./typography";
 
 export const GlobalStyle = createGlobalStyle`
@@ -111,7 +111,7 @@ body {
   font-size: ${font.s5};
 }
 a {
-  transition: 0.3s;
+  transition: ${transition.reg};
 }
 
 /* ################## */

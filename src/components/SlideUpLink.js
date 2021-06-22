@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Link } from "gatsby";
-import { blue, gray } from "../utils";
+import { blue, gray, transition } from "../utils";
 import { FiArrowRight } from "react-icons/fi";
 
 const SlideUpLink = ({ link, title, arrow }) => {
@@ -44,7 +44,7 @@ const LinkBackground = styled.span`
     bottom: 0;
     right: 0;
     transform: translate3d(0, 0, 0);
-    transition: all 0.4s;
+    transition: all ${transition.reg};
     transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
     z-index: -1;
     background: ${blue.four};
