@@ -17,7 +17,7 @@ import { FiX } from "react-icons/fi";
 const TopNav = () => {
   const [open, setOpen] = useState(false);
   return (
-    <Header>
+    <Header className={`${open ? "nav-open" : "nav-closed"}`}>
       <LogoWrapper>
         <Link to="/">
           <Logo />
@@ -64,6 +64,9 @@ const Header = styled.header`
   animation-delay: 1s;
   animation-duration: 1s;
   animation-fill-mode: both;
+  &.nav-open + main {
+    transform: scale(0.6);
+  }
 `;
 const LogoWrapper = styled.div`
   inline-size: 16rem;
@@ -77,7 +80,7 @@ const LogoWrapper = styled.div`
   }
 `;
 const Menu = styled.div`
-  width: 31px;
+  width: ${spacing.s6};
   height: 4px;
   border-radius: ${borderRadius.small};
   background: ${gray.five};
@@ -95,11 +98,11 @@ const Menu = styled.div`
   }
   &:before {
     top: -10px;
-    width: 25px;
+    width: ${spacing.s5};
   }
   &:after {
     top: 10px;
-    width: 16px;
+    width: ${spacing.s4};
   }
 `;
 const Hamburger = styled.button`
@@ -123,11 +126,11 @@ const Hamburger = styled.button`
     background: ${blue.five};
     &:before {
       background: ${blue.five};
-      width: 16px;
+      width: ${spacing.s4};
     }
     &:after {
       background: ${blue.five};
-      width: 25px;
+      width: ${spacing.s5};
     }
   }
 `;
@@ -179,16 +182,19 @@ const LinkStyles = styled.nav`
 
 const MobileNav = styled.button`
   &.hide {
-    display: none;
+    transform: translateY(-100%);
   }
   border: none;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
-  min-width: 100%;
-  min-height: 100vh;
+  width: 100%;
+  height: 100%;
   background: ${gray.white};
   padding: 0;
+  transform: translateY(0);
+  transition-property: transform;
+  transition-duration: 0.5s;
   a {
     display: block;
     text-align: center;

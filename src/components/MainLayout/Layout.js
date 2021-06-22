@@ -22,6 +22,8 @@ const BodyWrapper = styled.main`
   max-inline-size: ${width.xxlg};
   padding-inline-start: ${spacing.s5};
   padding-inline-end: ${spacing.s5};
+  transition-duration: 0.5s;
+  transition-property: transform;
 `;
 
 export default Layout;
