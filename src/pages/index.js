@@ -2,6 +2,7 @@ import * as React from "react";
 import Seo from "../components/seo";
 import Layout from "../components/MainLayout/Layout";
 import Hero from "../components/Hero";
+import FeaturedPost from "../components/FeaturedPost";
 
 const IndexPage = () => {
   return (
@@ -19,6 +20,7 @@ const IndexPage = () => {
           linkTitle={"Learn more"}
           arrow={"true"}
         />
+        <FeaturedPost />
       </Layout>
     </>
   );

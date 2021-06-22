@@ -33,6 +33,7 @@ export const font = {
   s9: "clamp(4rem, 1rem + 8vw, 5.653rem)", // 90.44px or 5.653rem
 };
 export const borderRadius = {
+  large: "30px",
   small: "5px",
   pill: "50px",
   circle: "50%",

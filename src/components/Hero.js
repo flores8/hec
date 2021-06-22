@@ -45,7 +45,7 @@ const FadeInUpAnimation = keyframes`
 
 export const Wrapper = styled.section`
   --flow-space: ${spacing.s7};
-
+  padding-block-start: ${spacing.s8};
   display: grid;
   grid-template-columns: 1fr;
   @media ${screen.md} {

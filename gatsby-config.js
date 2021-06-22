@@ -13,6 +13,14 @@ module.exports = {
     "gatsby-plugin-styled-components",
     "gatsby-plugin-image",
     {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: `${__dirname}/src/images/svg/`,
+        },
+      },
+    },
+    {
       resolve: "gatsby-plugin-google-analytics",
       options: {
         trackingId: "G-VNTK84ECFZ",
