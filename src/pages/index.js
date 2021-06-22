@@ -3,6 +3,7 @@ import Seo from "../components/seo";
 import Layout from "../components/MainLayout/Layout";
 import Hero from "../components/Hero";
 import FeaturedPost from "../components/FeaturedPost";
+import { ItalicHeader } from "../components/Headlines";
 
 const IndexPage = () => {
   return (
@@ -21,6 +22,9 @@ const IndexPage = () => {
           arrow={"true"}
         />
         <FeaturedPost />
+        <ItalicHeader>
+          Let’s talk and help you with your compliance needs.
+        </ItalicHeader>
       </Layout>
     </>
   );

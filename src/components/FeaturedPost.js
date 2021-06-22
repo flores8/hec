@@ -24,7 +24,7 @@ const FeaturedPost = () => {
           You might be surprised how many institutions are breaking federal laws
           unknowingly.
         </PostSubtitle>
-        <Button />
+        <Button link="/blog" title="Learn more" />
       </TextWrapper>
     </PostWrapper>
   );

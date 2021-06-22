@@ -3,8 +3,8 @@ import styled from "styled-components";
 import { Link } from "gatsby";
 import { borderRadius, transition, font, gray, spacing } from "../utils";
 
-const Button = () => {
-  return <ButtonPill>Learn more</ButtonPill>;
+const Button = ({ link, title }) => {
+  return <ButtonPill to={link}>{title}</ButtonPill>;
 };
 
 export default Button;
@@ -16,6 +16,7 @@ const ButtonPill = styled(Link)`
   transition: ${transition.reg};
   border-radius: ${borderRadius.pill};
   font-size: ${font.s20};
+  text-decoration: none;
   background: ${gray.five};
   color: ${gray.white};
   padding-block-start: ${spacing.s2};
@@ -26,5 +27,6 @@ const ButtonPill = styled(Link)`
   &:focus,
   &:active {
     background: ${gray.six};
+    text-decoration: none;
   }
 `;
