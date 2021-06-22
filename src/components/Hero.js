@@ -1,7 +1,7 @@
 import React from "react";
 import styled, { keyframes } from "styled-components";
 import { spacing, font, gray, blue, yellow, red, teal, screen } from "../utils";
-import SlideUpLink from "../components/SlideUpLink";
+import SlideUpLink from "../components/Links/SlideUpLink";
 
 const Hero = ({
   headline,

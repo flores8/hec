@@ -3,7 +3,7 @@ import styled, { keyframes } from "styled-components";
 import { gray, borderRadius, spacing, font, screen } from "../utils";
 import { StaticImage } from "gatsby-plugin-image";
 import CircleBackground from "../images/svg/dot-circle-yellow.svg";
-import Button from "../components/Button";
+import Button from "./Links/Button";
 
 const FeaturedPost = () => {
   return (

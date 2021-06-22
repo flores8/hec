@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Link } from "gatsby";
-import { borderRadius, transition, font, gray, spacing } from "../utils";
+import { borderRadius, transition, font, gray, spacing } from "../../utils";
 
 const Button = ({ link, title }) => {
   return <ButtonPill to={link}>{title}</ButtonPill>;

@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Link } from "gatsby";
-import { blue, gray, transition } from "../utils";
+import { blue, gray, transition } from "../../utils";
 import { FiArrowRight } from "react-icons/fi";
 
 const SlideUpLink = ({ link, title, arrow }) => {
