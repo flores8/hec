@@ -1,6 +1,6 @@
 import React from "react";
 import styled, { keyframes } from "styled-components";
-import { spacing, font, gray, blue, yellow, red, teal } from "../utils";
+import { spacing, font, gray, blue, yellow, red, teal, screen } from "../utils";
 import SlideUpLink from "../components/SlideUpLink";
 
 const Hero = ({
@@ -44,10 +44,14 @@ const FadeInUpAnimation = keyframes`
 `;
 
 export const Wrapper = styled.section`
-  padding: ${spacing.s9};
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
   --flow-space: ${spacing.s7};
+
+  display: grid;
+  grid-template-columns: 1fr;
+  @media ${screen.md} {
+    grid-template-columns: repeat(2, 1fr);
+    padding: ${spacing.s9};
+  }
 `;
 export const Content = styled.div`
   --flow-space: ${spacing.s7};

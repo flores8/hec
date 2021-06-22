@@ -19,7 +19,7 @@ const BodyWrapper = styled.main`
   color: ${gray.six};
   background: ${gray.white};
   margin: auto;
-  max-width: ${width.xxlg};
+  max-inline-size: ${width.xxlg};
   padding-inline-start: ${spacing.s5};
   padding-inline-end: ${spacing.s5};
 `;
