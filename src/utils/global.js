@@ -1,6 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 import { spacing, font } from "./size";
-import { gray, blue, transition } from "./colors";
+import { gray, blue } from "./colors";
+import { transition } from "./motion";
 import { primaryFont } from "./typography";
 
 export const GlobalStyle = createGlobalStyle`

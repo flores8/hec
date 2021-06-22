@@ -3,6 +3,7 @@ import styled, { keyframes } from "styled-components";
 import { gray, borderRadius, spacing, font, screen } from "../utils";
 import { StaticImage } from "gatsby-plugin-image";
 import CircleBackground from "../images/svg/dot-circle-yellow.svg";
+import Button from "../components/Button";
 
 const FeaturedPost = () => {
   return (
@@ -23,6 +24,7 @@ const FeaturedPost = () => {
           You might be surprised how many institutions are breaking federal laws
           unknowingly.
         </PostSubtitle>
+        <Button />
       </TextWrapper>
     </PostWrapper>
   );
@@ -44,6 +46,7 @@ const PostWrapper = styled.section`
   color: ${gray.white};
   display: grid;
   grid-template-columns: 1fr;
+  align-items: center;
   animation-name: ${FadeInAnimation};
   animation-delay: 1s;
   animation-duration: 1s;

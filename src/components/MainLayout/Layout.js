@@ -1,6 +1,6 @@
 import React from "react";
 import TopNav from "./TopNav";
-import styled, { keyframes } from "styled-components";
+import styled from "styled-components";
 import { GlobalStyle, gray, width, spacing, transition } from "../../utils";
 
 const Layout = ({ children }) => {
