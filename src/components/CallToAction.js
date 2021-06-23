@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { gray, spacing, font, width } from "../utils";
+import { gray, spacing, font, width, screen } from "../utils";
 import ComplianceReport from "../images/svg/compliance-report.svg";
 import Form from "../components/Forms/LeadGen";
 
@@ -43,11 +43,18 @@ const Title = styled.p`
   margin-block-start: ${spacing.s4};
   font-weight: bold;
   font-size: ${font.s7};
+  line-height: 1.2;
+  padding-inline-start: ${spacing.s4};
+  padding-inline-end: ${spacing.s4};
 `;
 
 const Subtitle = styled.p`
   font-size: ${font.s5};
   margin-block-start: ${spacing.s6};
-  padding-inline-start: ${spacing.s12};
-  padding-inline-end: ${spacing.s12};
+  padding-inline-start: ${spacing.s8};
+  padding-inline-end: ${spacing.s8};
+  @media ${screen.md} {
+    padding-inline-start: ${spacing.s12};
+    padding-inline-end: ${spacing.s12};
+  }
 `;
