@@ -1,7 +1,7 @@
 import React from "react";
 import styled, { keyframes } from "styled-components";
 import NavLinks from "./NavLinks";
-import { spacing, width, font, gray, borderRadius } from "../../utils";
+import { spacing, width, font, gray, borderRadius, screen } from "../../utils";
 
 const Footer = () => {
   return (
@@ -33,8 +33,11 @@ const FooterWrapper = styled.footer`
 const Content = styled.div`
   max-width: ${width.xlg};
   margin: auto;
-  display: flex;
-  justify-content: space-between;
+  text-align: center;
+  @media ${screen.md} {
+    display: flex;
+    justify-content: space-between;
+  }
   align-items: center;
   animation-name: ${FadeInAnimation};
   animation-delay: 1s;
@@ -46,10 +49,15 @@ const Copyright = styled.div`
   color: ${gray.four};
 `;
 const Text = styled.p`
-  font-size: ${font.s20};
+  font-size: ${font.s4};
+  padding-inline-start: ${spacing.s4};
 `;
 const Links = styled.div`
   font-size: ${font.s4};
+  margin-block-start: ${spacing.s6};
+  @media ${screen.md} {
+    margin-block-start: 0;
+  }
   a {
     color: ${gray.four};
     text-decoration: none;
