@@ -10,6 +10,7 @@ const Contact = () => {
       <Layout>
         <Hero
           headline={"Contact us"}
+          headlinePunctuation={"."}
           headlinePeriod={"teal"}
           subtitle={
             "Send us a message. We’ll get back to you shortly. We look forward to working with you."

@@ -10,6 +10,7 @@ const Services = () => {
       <Layout>
         <Hero
           headline={"Our services"}
+          headlinePunctuation={"."}
           headlinePeriod={"red"}
           subtitle={
             "Helping ensure your institution maintains compliance so that you can get back to the business of educating and shaping minds."

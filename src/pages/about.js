@@ -10,6 +10,7 @@ const About = () => {
       <Layout>
         <Hero
           headline={"About us"}
+          headlinePunctuation={"."}
           headlinePeriod={"yellow"}
           subtitle={
             "At Higher Education Compliance Partners, we are dedicated to advance the compliance and administrative proficiency across higher educational institutions."

@@ -6,6 +6,7 @@ import SlideUpLink from "../components/Links/SlideUpLink";
 const Hero = ({
   headline,
   headlinePeriod,
+  headlinePunctuation,
   subtitle,
   includeLink,
   link,
@@ -17,7 +18,7 @@ const Hero = ({
       <Content className="flow">
         <Headline>
           {headline}
-          <span className={headlinePeriod}>.</span>
+          <span className={headlinePeriod}>{headlinePunctuation}</span>
         </Headline>
         <Subtitle>
           {subtitle}
