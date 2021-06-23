@@ -29,12 +29,13 @@ export const font = {
   s5: "clamp(1rem, 1rem + .8vw, 1.5rem)", // 24px or 1.5rem
   s6: "clamp(1.5rem, 1rem + 1.5vw, 2rem)", // 32px or 2rem
   s7: "clamp(2rem, 1rem + 3vw, 2.827rem)", // 45.23px or 2.827rem
-  s8: "clamp(2.827rem, 1rem + 5vw, 4rem)", // 64px or 4rem
-  s9: "clamp(4rem, 1rem + 8vw, 5.653rem)", // 90.44px or 5.653rem
+  s8: "clamp(2rem, 1rem + 5vw, 4rem)", // 64px or 4rem
+  s9: "clamp(3rem, 1rem + 8vw, 5.653rem)", // 90.44px or 5.653rem
 };
 export const borderRadius = {
-  large: "30px",
   small: "5px",
+  md: "10px",
+  large: "30px",
   pill: "50px",
   circle: "50%",
 };
