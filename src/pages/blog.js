@@ -1,16 +1,20 @@
 import React from "react";
 import Seo from "../components/seo";
 import Layout from "../components/MainLayout/Layout";
+import Hero from "../components/Hero";
 
 const Blog = () => {
   return (
     <>
       <Seo title="Blog" />
       <Layout>
-        <div>
-          <h1>Blog</h1>
-          <p>blog page</p>
-        </div>
+        <Hero
+          headline={"Blog"}
+          headlinePunctuation={"."}
+          headlinePeriod={"red"}
+          subtitle={"Covering all things compliance and financial aid related."}
+          includeLink={"false"}
+        />
       </Layout>
     </>
   );
