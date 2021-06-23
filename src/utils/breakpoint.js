@@ -7,9 +7,9 @@ export const screen = {
 };
 
 export const width = {
-  sm: "37.5rem",
-  md: "48rem",
-  lg: "57.5rem",
-  xlg: "64rem",
-  xxlg: "81.25rem",
+  sm: "37.5rem", // 600px
+  md: "48rem", // 768px
+  lg: "57.5rem", //920px
+  xlg: "64rem", // 1024px
+  xxlg: "81.25rem", // 1300px
 };

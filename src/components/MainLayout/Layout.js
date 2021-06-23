@@ -1,5 +1,6 @@
 import React from "react";
 import TopNav from "./TopNav";
+import Footer from "./Footer";
 import styled from "styled-components";
 import { GlobalStyle, gray, transition } from "../../utils";
 
@@ -9,6 +10,7 @@ const Layout = ({ children }) => {
       <div>
         <TopNav />
         <BodyWrapper>{children}</BodyWrapper>
+        <Footer />
         <GlobalStyle />
       </div>
     </>
