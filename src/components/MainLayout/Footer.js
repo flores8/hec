@@ -1,5 +1,5 @@
 import React from "react";
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 import NavLinks from "./NavLinks";
 import { spacing, width, font, gray, borderRadius } from "../../utils";
 
@@ -20,6 +20,11 @@ const Footer = () => {
 
 export default Footer;
 
+const FadeInAnimation = keyframes`
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+`;
+
 const FooterWrapper = styled.footer`
   padding-block-start: ${spacing.s8};
   padding-block-end: ${spacing.s8};
@@ -31,6 +36,10 @@ const Content = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  animation-name: ${FadeInAnimation};
+  animation-delay: 1s;
+  animation-duration: 1s;
+  animation-fill-mode: both;
 `;
 
 const Copyright = styled.div`

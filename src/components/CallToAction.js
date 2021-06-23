@@ -7,7 +7,7 @@ import Form from "../components/Forms/LeadGen";
 const CallToAction = () => {
   return (
     <OutsideWrapper>
-      <InsideWrapper>
+      <InsideWrapper className="animate">
         <ComplianceReport className="svg" />
         <Title>See an example compliance plan</Title>
         <Subtitle>

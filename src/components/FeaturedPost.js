@@ -1,5 +1,5 @@
 import React from "react";
-import styled, { keyframes } from "styled-components";
+import styled from "styled-components";
 import { gray, borderRadius, spacing, font, screen } from "../utils";
 import { StaticImage } from "gatsby-plugin-image";
 import CircleBackground from "../images/svg/dot-circle-yellow.svg";
@@ -7,7 +7,7 @@ import Button from "./Links/Button";
 
 const FeaturedPost = () => {
   return (
-    <PostWrapper>
+    <PostWrapper className="animate">
       <ImageWrapper>
         <StaticImage
           src="../images/college-student.jpg"
@@ -32,11 +32,6 @@ const FeaturedPost = () => {
 
 export default FeaturedPost;
 
-const FadeInAnimation = keyframes`
-  0% {opacity: 0;}
-  100% {opacity: 1;}
-`;
-
 const PostWrapper = styled.section`
   background: ${gray.four};
   border-radius: ${borderRadius.large};
@@ -47,10 +42,6 @@ const PostWrapper = styled.section`
   display: grid;
   grid-template-columns: 1fr;
   align-items: center;
-  animation-name: ${FadeInAnimation};
-  animation-delay: 1s;
-  animation-duration: 1s;
-  animation-fill-mode: both;
   @media ${screen.lg} {
     grid-template-columns: repeat(2, 1fr);
     margin-block-start: ${spacing.s8};

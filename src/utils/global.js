@@ -115,6 +115,26 @@ a {
   transition: ${transition.reg};
 }
 
+
+/* Animations */
+.animate {
+  animation-name: fade-in-up;
+  animation-delay: 1s;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+@keyframes fade-in-up {
+  0% {
+    opacity: 0;
+    transform: translate3d(0,50px,0);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
 /* ################## */
 /* END Global Styles */
 /* ################## */

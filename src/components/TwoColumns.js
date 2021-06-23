@@ -19,7 +19,7 @@ const TwoColumns = ({
   linkColor2,
 }) => {
   return (
-    <ColumnWrapper>
+    <ColumnWrapper className="animate">
       <Column>
         <Svgs name={svg1} />
         <Header>{headline1}</Header>

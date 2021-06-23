@@ -1,5 +1,5 @@
 import React from "react";
-import styled, { keyframes } from "styled-components";
+import styled from "styled-components";
 import { spacing, font, gray, blue, yellow, red, teal, screen } from "../utils";
 import SlideUpLink from "../components/Links/SlideUpLink";
 
@@ -33,17 +33,6 @@ const Hero = ({
 
 export default Hero;
 
-const FadeInUpAnimation = keyframes`
-0% {
-  opacity: 0;
-  transform: translate3d(0,50px,0);
-}
-100% {
-  opacity: 1;
-  transform: none;
-}
-`;
-
 export const Wrapper = styled.section`
   --flow-space: ${spacing.s7};
   padding-block-start: ${spacing.s8};
@@ -62,7 +51,7 @@ export const Headline = styled.h1`
   font-size: ${font.s9};
   line-height: 1;
   color: ${gray.five};
-  animation-name: ${FadeInUpAnimation};
+  animation-name: fade-in-up;
   animation-duration: 1s;
   animation-fill-mode: both;
   span {
@@ -82,7 +71,7 @@ export const Headline = styled.h1`
 `;
 
 export const Subtitle = styled.p`
-  animation-name: ${FadeInUpAnimation};
+  animation-name: fade-in-up;
   animation-delay: 0.75s;
   animation-duration: 1s;
   animation-fill-mode: both;
