@@ -17,7 +17,7 @@ const IndexPage = () => {
           <Hero
             headline={"Compliance matters"}
             headlinePunctuation={"."}
-            headlinePeriod={"blue"}
+            headlinePeriod={"teal"}
             subtitle={
               "We are a higher education consultancy and training partner to maintain compliance and administration across your institution, so you can focus on your students."
             }

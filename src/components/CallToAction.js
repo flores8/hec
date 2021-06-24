@@ -25,17 +25,17 @@ export default CallToAction;
 const OutsideWrapper = styled.section`
   background: ${gray.offwhite};
   text-align: center;
-  margin-block-start: ${spacing.s10};
-  padding-block-end: ${spacing.s8};
+  margin-block-start: ${spacing.s8};
+  padding-block-start: ${spacing.s8};
+  padding-block-end: ${spacing.s9};
 `;
 
 const InsideWrapper = styled.div`
   max-width: ${width.lg};
   margin: auto;
   .svg {
-    max-width: 6rem;
+    max-width: 10rem;
     margin: auto;
-    margin-block-start: ${spacing.s10};
   }
 `;
 
