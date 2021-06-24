@@ -2,6 +2,7 @@ import React from "react";
 import Seo from "../components/seo";
 import Layout from "../components/MainLayout/Layout";
 import Hero from "../components/Hero";
+import { NonFullWidth } from "../components/MainLayout/ComponentWrapper";
 
 const Success = () => {
   return (

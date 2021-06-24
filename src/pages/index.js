@@ -19,7 +19,7 @@ const IndexPage = () => {
             headlinePunctuation={"."}
             headlinePeriod={"teal"}
             subtitle={
-              "We are a higher education consultancy and training partner to maintain compliance and administration across your institution, so you can focus on your students."
+              "We are a consultancy and training partner that works with higher education institutions to develop processes and programs to ensure compliance, so you can focus on your students."
             }
             includeLink={"true"}
             link={"/about"}
@@ -33,18 +33,13 @@ const IndexPage = () => {
           <TwoColumns
             svg1="compliance"
             svg2="financial"
-            headline1="Federal and State Compliance"
+            headline1="Federal and State Regulatory Compliance"
             headline2="Financial Aid"
-            description1="Keep your institution free from legal battles with smart compliance
-          regulations. Avoid any negative policies around discrimination and
-          unequal treatment on both the federal as well as the state level.
-          Whether you’re in the middle of a legal battle or want to avoid one,
-          we can help."
+            description1="Reduce the risk of costly legal battles by initiating a proactive regulatory compliance program. Whether you're in the middle of a legal battle or want to avoid one, we can help."
             description2="Need help with long and short term strategic planning? Are you
           utilizing financial aid to support student recruitment and retention?
           Need help finding and distributing Higher Education Emergency Relief
-          funds? We can help with everything from compliance to automation to
-          administration."
+          funds? We can help."
             link1={"/services"}
             linkTitle1={"Learn about our services"}
             linkColor1={"yellow"}
