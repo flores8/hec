@@ -78,3 +78,12 @@ export const Subtitle = styled.p`
   font-size: ${font.s20};
   color: ${gray.five};
 `;
+
+export const LongSubtitle = styled.p`
+  animation-name: fade-in-up;
+  animation-delay: 0.75s;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  font-size: ${font.s20};
+  color: ${gray.five};
+`;

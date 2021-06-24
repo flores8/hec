@@ -18,3 +18,12 @@ export const ItalicHeader = styled.h2`
   margin: auto;
   margin-block-start: ${spacing.s10};
 `;
+
+export const PageHeadline = styled.h2`
+  ${Animate}
+  font-size: ${font.s8};
+  color: ${blue.five};
+  line-height: 1;
+  font-style: italic;
+  max-width: ${width.xlg};
+`;

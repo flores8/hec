@@ -18,6 +18,7 @@ const IndexPage = () => {
             headline={"Compliance matters"}
             headlinePunctuation={"."}
             headlinePeriod={"teal"}
+            includeSubtitle={"true"}
             subtitle={
               "We are a consultancy and training partner that works with higher education institutions to develop processes and programs to ensure compliance, so you can focus on your students."
             }

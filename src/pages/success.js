@@ -9,18 +9,20 @@ const Success = () => {
     <>
       <Seo title="Success" />
       <Layout>
-        <Hero
-          headline={"Success"}
-          headlinePunctuation={"!"}
-          headlinePeriod={"teal"}
-          subtitle={
-            "Thanks for reaching out to us. We will get back to you soon."
-          }
-          includeLink={"true"}
-          link={"/"}
-          linkTitle={"Back to home"}
-          arrow={"true"}
-        />
+        <NonFullWidth>
+          <Hero
+            headline={"Success"}
+            headlinePunctuation={"!"}
+            headlinePeriod={"teal"}
+            subtitle={
+              "Thanks for reaching out to us. We will get back to you soon."
+            }
+            includeLink={"true"}
+            link={"/"}
+            linkTitle={"Back to home"}
+            arrow={"true"}
+          />
+        </NonFullWidth>
       </Layout>
     </>
   );
