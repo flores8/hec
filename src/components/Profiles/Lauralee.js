@@ -1,15 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { StaticImage } from "gatsby-plugin-image";
-import {
-  font,
-  gray,
-  spacing,
-  screen,
-  borderRadius,
-  teal,
-  width,
-} from "../../utils";
+import { font, gray, spacing, screen, borderRadius, teal } from "../../utils";
 
 const Lauralee = () => {
   return (

@@ -1,15 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { StaticImage } from "gatsby-plugin-image";
-import {
-  font,
-  gray,
-  spacing,
-  screen,
-  borderRadius,
-  teal,
-  width,
-} from "../../utils";
+import { font, gray, spacing, screen, borderRadius, teal } from "../../utils";
 
 const Melissa = () => {
   return (
@@ -85,7 +77,7 @@ const Melissa = () => {
               </Specialty>
               <Specialty>Regulatory Compliance</Specialty>
               <Specialty>Human Resources</Specialty>
-              <Specialty>Policy Deveopment</Specialty>
+              <Specialty>Policy Development</Specialty>
             </SpecialtyWrapper>
           </Content>
         </Background>
