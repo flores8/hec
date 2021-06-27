@@ -53,6 +53,14 @@ module.exports = {
       __key: "pages",
     },
     {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "blog",
+        path: "./src/blog/",
+      },
+      __key: "blog",
+    },
+    {
       resolve: `gatsby-plugin-google-fonts-v2`,
       options: {
         display: "swap",

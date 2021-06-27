@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { width, spacing, font, screen, gray, borderRadius } from "../utils";
+import { spacing, font, screen, gray, borderRadius } from "../utils";
 
 const TwoColumnsImageRight = ({ headline, description }) => {
   return (

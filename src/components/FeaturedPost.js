@@ -5,7 +5,8 @@ import { StaticImage } from "gatsby-plugin-image";
 import CircleBackground from "../images/svg/dot-circle-yellow.svg";
 import Button from "./Links/Button";
 
-const FeaturedPost = () => {
+const FeaturedPost = ({ post }) => {
+  const { title, subtitle, slug } = post.frontmatter;
   return (
     <PostWrapper className="animate">
       <ImageWrapper>
@@ -17,14 +18,9 @@ const FeaturedPost = () => {
         <CircleBackground className="dotted-circle" />
       </ImageWrapper>
       <TextWrapper className="flow">
-        <PostHeadline>
-          Is your institution following federal laws concerning financial aid?
-        </PostHeadline>
-        <PostSubtitle>
-          You might be surprised how many institutions are breaking federal laws
-          unknowingly.
-        </PostSubtitle>
-        <Button link="/blog" title="Learn more" />
+        <PostHeadline>{title}</PostHeadline>
+        <PostSubtitle>{subtitle}</PostSubtitle>
+        <Button link={`/blog/${slug}`} title="Learn more" />
       </TextWrapper>
     </PostWrapper>
   );
