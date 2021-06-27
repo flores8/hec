@@ -17,7 +17,7 @@ const usePosts = () => {
             date(formatString: "MMMM Do, YYYY")
             image {
               childrenImageSharp {
-                gatsbyImageData
+                gatsbyImageData(placeholder: BLURRED)
               }
             }
           }
