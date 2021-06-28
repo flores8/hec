@@ -1,10 +1,11 @@
 import React from "react";
 import styled from "styled-components";
 import Post from "./Post";
+import { spacing, screen } from "../../utils";
 
 const Posts = ({ posts }) => {
   return (
-    <BlogPostWrapper>
+    <BlogPostWrapper className="animate">
       {posts.map((post) => {
         return <Post key={post.id} {...post} />;
       })}
@@ -14,4 +15,11 @@ const Posts = ({ posts }) => {
 
 export default Posts;
 
-const BlogPostWrapper = styled.section``;
+const BlogPostWrapper = styled.section`
+  display: grid;
+  @media ${screen.md} {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: ${spacing.s9};
+    padding: ${spacing.s9};
+  }
+`;

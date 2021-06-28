@@ -4,6 +4,7 @@ import Layout from "../components/MainLayout/Layout";
 import Hero from "../components/Hero";
 import usePosts from "../hooks/usePosts";
 import Posts from "../components/Posts";
+import { NonFullWidth } from "../components/MainLayout/ComponentWrapper";
 
 const Blog = () => {
   const { allposts } = usePosts();
@@ -11,14 +12,18 @@ const Blog = () => {
     <>
       <Seo title="Blog" />
       <Layout>
-        <Hero
-          headline={"Blog"}
-          headlinePunctuation={"."}
-          headlinePeriod={"red"}
-          subtitle={"Covering all things compliance and financial aid related."}
-          includeLink={"false"}
-        />
-        <Posts posts={allposts.posts} />
+        <NonFullWidth>
+          <Hero
+            headline={"Blog"}
+            headlinePunctuation={"."}
+            headlinePeriod={"red"}
+            subtitle={
+              "Covering all things compliance and financial aid related."
+            }
+            includeLink={"false"}
+          />
+          <Posts posts={allposts.posts} />
+        </NonFullWidth>
       </Layout>
     </>
   );

@@ -29,10 +29,11 @@ const usePosts = () => {
           id
           frontmatter {
             title
+            subtitle
             author
             slug
             featured
-            date(formatString: "MMMM Do, YYYY")
+            date(formatString: "Do MMMM")
             image {
               childrenImageSharp {
                 gatsbyImageData(placeholder: BLURRED)

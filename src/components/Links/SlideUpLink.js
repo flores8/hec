@@ -1,13 +1,13 @@
 import React from "react";
 import styled from "styled-components";
 import { Link } from "gatsby";
-import { blue, gray, transition } from "../../utils";
+import { blue, gray, transition, teal, red, yellow } from "../../utils";
 import { FiArrowRight } from "react-icons/fi";
 
-const SlideUpLink = ({ link, title, arrow }) => {
+const SlideUpLink = ({ link, title, arrow, color }) => {
   return (
     <LinkAnimation to={link}>
-      <LinkBackground>
+      <LinkBackground className={color}>
         {title} {arrow === "true" && <FiArrowRight />}
       </LinkBackground>
     </LinkAnimation>
@@ -47,15 +47,45 @@ const LinkBackground = styled.span`
     transition: all ${transition.reg};
     transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
     z-index: -1;
-    background: ${blue.four};
     height: 4px;
     border-radius: 2px;
+    background: ${blue.four};
   }
   ${LinkAnimation}:hover & {
     &:after {
       height: 100%;
       background: ${blue.one};
       border-radius: 4px;
+    }
+  }
+  &.teal {
+    &:after {
+      background: ${teal.four};
+    }
+    ${LinkAnimation}:hover & {
+      &:after {
+        background: ${teal.one};
+      }
+    }
+  }
+  &.red {
+    &:after {
+      background: ${red.four};
+    }
+    ${LinkAnimation}:hover & {
+      &:after {
+        background: ${red.one};
+      }
+    }
+  }
+  &.yellow {
+    &:after {
+      background: ${yellow.four};
+    }
+    ${LinkAnimation}:hover & {
+      &:after {
+        background: ${yellow.one};
+      }
     }
   }
 `;
