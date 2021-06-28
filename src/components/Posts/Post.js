@@ -1,12 +1,13 @@
 import React from "react";
 import styled from "styled-components";
+import { Link } from "gatsby";
 
 const Post = ({ frontmatter }) => {
-  const { title, subtitle, slug, author } = frontmatter;
+  const { title, slug, author } = frontmatter;
   return (
     <PostWrapper>
       <PostName>
-        Title: {title} by {author}
+        Title: <Link to={`/blog/${slug}`}>{title}</Link> by {author}
       </PostName>
     </PostWrapper>
   );
