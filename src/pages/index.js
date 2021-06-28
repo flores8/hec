@@ -2,7 +2,7 @@ import * as React from "react";
 import Seo from "../components/seo";
 import Layout from "../components/MainLayout/Layout";
 import Hero from "../components/Hero";
-import FeaturedPost from "../components/FeaturedPost";
+import FeaturedPost from "../components/FeaturedPost/Post";
 import { ItalicHeader } from "../components/Headlines";
 import TwoColumns from "../components/TwoColumns";
 import { NonFullWidth } from "../components/MainLayout/ComponentWrapper";
@@ -11,7 +11,6 @@ import usePosts from "../hooks/usePosts";
 
 const IndexPage = () => {
   const { featured } = usePosts();
-  // console.log(featured.nodes[0].frontmatter);
   return (
     <>
       <Seo title="Helping you with all your compliance needs" />
@@ -30,7 +29,7 @@ const IndexPage = () => {
             linkTitle={"Learn more"}
             arrow={"true"}
           />
-          <FeaturedPost post={featured.nodes[0]} />
+          <FeaturedPost post={featured} />
           <ItalicHeader>
             Let’s talk and help you with your compliance needs.
           </ItalicHeader>

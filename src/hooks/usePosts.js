@@ -7,7 +7,8 @@ const usePosts = () => {
         limit: 1
         filter: { frontmatter: { featured: { eq: true } } }
       ) {
-        nodes {
+        posts: nodes {
+          id
           frontmatter {
             title
             subtitle
@@ -21,7 +22,23 @@ const usePosts = () => {
               }
             }
           }
+        }
+      }
+      allposts: allMdx(sort: { fields: frontmatter___date, order: DESC }) {
+        posts: nodes {
           id
+          frontmatter {
+            title
+            author
+            slug
+            featured
+            date(formatString: "MMMM Do, YYYY")
+            image {
+              childrenImageSharp {
+                gatsbyImageData(placeholder: BLURRED)
+              }
+            }
+          }
         }
       }
     }

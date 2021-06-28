@@ -1,21 +1,15 @@
 import React from "react";
 import styled from "styled-components";
-import { gray, borderRadius, spacing, font, screen } from "../utils";
+import { gray, borderRadius, spacing, font, screen } from "../../utils";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
-import CircleBackground from "../images/svg/dot-circle-yellow.svg";
-import Button from "./Links/Button";
+import CircleBackground from "../../images/svg/dot-circle-yellow.svg";
+import Button from "../Links/Button";
 
-const FeaturedPost = ({ post }) => {
-  const { title, subtitle, slug, image } = post.frontmatter;
-  console.log(image.childrenImageSharp[0]);
+const Post = ({ post }) => {
+  const { title, subtitle, slug, image } = post.posts[0].frontmatter;
   return (
     <PostWrapper className="animate">
       <ImageWrapper>
-        {/* <StaticImage
-          src="../images/college-student.jpg"
-          alt="Ensure your higher education institution is following federal laws concerning financial aid."
-          placeholder="blurred"
-        /> */}
         <GatsbyImage
           image={getImage(image.childrenImageSharp[0])}
           alt={title}
@@ -31,7 +25,7 @@ const FeaturedPost = ({ post }) => {
   );
 };
 
-export default FeaturedPost;
+export default Post;
 
 const PostWrapper = styled.section`
   background: ${gray.four};
