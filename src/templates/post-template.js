@@ -5,7 +5,7 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import { MDXRenderer } from "gatsby-plugin-mdx";
 import Layout from "../components/MainLayout/Layout";
 import styled from "styled-components";
-import { font, spacing, borderRadius, width } from "../utils";
+import { font, spacing, borderRadius, width, screen } from "../utils";
 
 const postTemplate = ({ data }) => {
   const {
@@ -43,9 +43,11 @@ const PostWrapper = styled.article`
   .gatsby-image-wrapper {
     border-radius: ${borderRadius.large};
     max-width: ${width.xlg};
-    margin: auto;
-    margin-block-start: ${spacing.s8};
-    max-height: ${spacing.s16};
+    margin: ${spacing.s8} ${spacing.s4} 0;
+    max-height: ${spacing.s15};
+    @media ${screen.md} {
+      max-height: ${spacing.s16};
+    }
   }
 `;
 const Headline = styled.h1`
@@ -61,8 +63,12 @@ const Subtitle = styled.p`
   margin: auto;
 `;
 const Post = styled.article`
-  margin-top: ${spacing.s8};
   text-align: left;
+  max-width: ${width.lg};
+  margin: auto;
+  margin-block-start: ${spacing.s8};
+  padding-inline-start: ${spacing.s4};
+  padding-inline-end: ${spacing.s4};
 `;
 
 export const query = graphql`
