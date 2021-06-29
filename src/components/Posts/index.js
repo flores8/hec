@@ -19,7 +19,7 @@ const BlogPostWrapper = styled.section`
   display: grid;
   @media ${screen.md} {
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: ${spacing.s9};
+    grid-gap: ${spacing.s7};
     padding: ${spacing.s9};
   }
 `;

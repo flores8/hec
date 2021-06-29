@@ -27,7 +27,7 @@ const Post = ({ post }) => {
 
 export default Post;
 
-const PostWrapper = styled.section`
+const PostWrapper = styled.article`
   background: ${gray.four};
   border-radius: ${borderRadius.large};
   margin-inline-start: ${spacing.s8};

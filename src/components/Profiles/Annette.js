@@ -1,7 +1,15 @@
 import React from "react";
 import styled from "styled-components";
 import { StaticImage } from "gatsby-plugin-image";
-import { font, gray, spacing, screen, borderRadius, teal } from "../../utils";
+import {
+  font,
+  gray,
+  spacing,
+  screen,
+  borderRadius,
+  teal,
+  boxShadow,
+} from "../../utils";
 
 const Annette = () => {
   return (
@@ -119,7 +127,7 @@ const Image = styled.div`
   .gatsby-image-wrapper {
     border-radius: ${borderRadius.large};
     object-fit: cover;
-    box-shadow: 4px 4px 13px 6px rgba(0, 0, 0, 0.22);
+    box-shadow: ${boxShadow.lg};
   }
 `;
 const Background = styled.div`
