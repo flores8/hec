@@ -14,7 +14,6 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
 const Post = ({ frontmatter }) => {
   const { title, subtitle, slug, date, image } = frontmatter;
-  console.log(image);
   return (
     <PostLink to={`/blog/${slug}`}>
       <PostsWrapper className="flow">

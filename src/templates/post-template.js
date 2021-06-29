@@ -16,8 +16,13 @@ const postTemplate = ({ data }) => {
     <>
       <Seo title={title} subtitle={subtitle} author={author} />
       <Layout>
-        <article className="animate">
-          <GatsbyImage image={getImage(image)} alt={title} />
+        <h1 className="animate--immediate">{title}</h1>
+        <GatsbyImage
+          image={getImage(image.childrenImageSharp[0])}
+          alt={title}
+          className="animate--slow"
+        />
+        <article className="animate--slow">
           <MDXRenderer>{body}</MDXRenderer>
         </article>
       </Layout>

@@ -123,6 +123,17 @@ a {
   animation-duration: 1s;
   animation-fill-mode: both;
 }
+.animate--immediate {
+  animation-name: fade-in-up;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+.animate--slow {
+  animation-name: fade-in-up;
+  animation-delay: 0.75s;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
 
 @keyframes fade-in-up {
   0% {
