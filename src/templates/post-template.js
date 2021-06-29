@@ -3,6 +3,7 @@ import { graphql } from "gatsby";
 import Seo from "../components/seo";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import { MDXRenderer } from "gatsby-plugin-mdx";
+import Layout from "../components/MainLayout/Layout";
 
 const postTemplate = ({ data }) => {
   const {
@@ -14,10 +15,12 @@ const postTemplate = ({ data }) => {
   return (
     <>
       <Seo title={title} subtitle={subtitle} author={author} />
-      <article>
-        <GatsbyImage image={getImage(image)} alt={title} />
-        <MDXRenderer>{body}</MDXRenderer>
-      </article>
+      <Layout>
+        <article className="animate">
+          <GatsbyImage image={getImage(image)} alt={title} />
+          <MDXRenderer>{body}</MDXRenderer>
+        </article>
+      </Layout>
     </>
   );
 };

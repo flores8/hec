@@ -20,6 +20,6 @@ const BlogPostWrapper = styled.section`
   @media ${screen.md} {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: ${spacing.s7};
-    padding: ${spacing.s9};
+    padding: ${spacing.s8};
   }
 `;
