@@ -47,6 +47,8 @@ const PostLink = styled(Link)`
   padding: ${spacing.s6};
   border-radius: ${borderRadius.md};
   transition: ${transition.slow};
+  margin-block-start: ${spacing.s7};
+  margin-block-end: ${spacing.s7};
   &:hover {
     box-shadow: ${boxShadow.md};
   }
