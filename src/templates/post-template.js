@@ -45,9 +45,6 @@ const PostWrapper = styled.article`
     max-width: ${width.xlg};
     margin: ${spacing.s8} ${spacing.s4} 0;
     max-height: ${spacing.s15};
-    @media ${screen.md} {
-      max-height: ${spacing.s16};
-    }
   }
 `;
 const Headline = styled.h1`
