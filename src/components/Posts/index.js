@@ -19,6 +19,10 @@ const BlogPostWrapper = styled.section`
   display: grid;
   @media ${screen.md} {
     grid-template-columns: repeat(2, 1fr);
+    grid-gap: ${spacing.s2};
+    padding: ${spacing.s1};
+  }
+  @media ${screen.lg} {
     grid-gap: ${spacing.s7};
     padding: ${spacing.s8};
   }
