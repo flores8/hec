@@ -13,7 +13,7 @@ const NavLinks = () => {
       <Link to="/services" activeClassName="active">
         Services
       </Link>
-      <Link to="/blog" activeClassName="active">
+      <Link to="/blog" activeClassName="active" partiallyActive={true}>
         Blog
       </Link>
       <Link to="/contact" activeClassName="active" className="contact">
