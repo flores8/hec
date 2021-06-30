@@ -9,7 +9,7 @@ const CallToAction = () => {
     <OutsideWrapper>
       <InsideWrapper className="animate">
         <ComplianceReport className="svg" />
-        <Title>See an example compliance plan</Title>
+        <Title>See an example of our work</Title>
         <Subtitle>
           Sign up to get an idea of what kind of compliance plan we could put
           together for your institution.
