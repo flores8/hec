@@ -61,7 +61,10 @@ const Links = styled.div`
   a {
     color: ${gray.four};
     text-decoration: none;
-    padding: ${spacing.s2} ${spacing.s3};
+    padding: ${spacing.s2};
+    @media ${screen.md} {
+      padding: ${spacing.s2} ${spacing.s3};
+    }
     margin-inline-start: ${spacing.s4};
     margin-inline-end: ${spacing.s4};
     &.active,
