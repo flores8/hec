@@ -128,6 +128,7 @@ const Image = styled.div`
     border-radius: ${borderRadius.large};
     object-fit: cover;
     box-shadow: ${boxShadow.lg};
+    overflow: hidden;
   }
 `;
 const Background = styled.div`
