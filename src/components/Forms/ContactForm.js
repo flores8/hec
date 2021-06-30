@@ -72,7 +72,10 @@ export const InputStyles = css`
 
 const FormWrapper = styled.div`
   margin: auto;
-  padding: ${spacing.s5} ${spacing.s9};
+  padding-block-start: ${spacing.s5};
+  @media ${screen.md} {
+    padding: ${spacing.s5} ${spacing.s9};
+  }
   --flow-space: ${spacing.s4};
   form {
     display: grid;
@@ -118,13 +121,16 @@ const FormWrapper = styled.div`
     grid-area: button;
     ${DefaultInput}
     display: inline-block;
-    inline-size: 50%;
+    @media ${screen.md} {
+      inline-size: 50%;
+    }
     border: none;
     background: ${yellow.two};
     color: ${gray.five};
     font-weight: bold;
     font-size: ${font.s4};
     cursor: pointer;
+    white-space: nowrap;
     &:hover,
     &:active,
     &:focus {
