@@ -5,14 +5,14 @@ import { spacing, font, screen, gray, borderRadius } from "../utils";
 const TwoColumnsImageRight = ({ headline, description }) => {
   return (
     <ColumnWrapper className="animate">
-      <Column>
-        <Header>{headline}</Header>
-        <Description>{description}</Description>
-      </Column>
-      <Column>
+      <Column className="image">
         <ImageWrapper>
           <p>image here...</p>
         </ImageWrapper>
+      </Column>
+      <Column className="content">
+        <Header>{headline}</Header>
+        <Description>{description}</Description>
       </Column>
     </ColumnWrapper>
   );
@@ -36,6 +36,15 @@ const Column = styled.div`
   color: ${gray.five};
   .header-visual {
     width: 20%;
+  }
+  @media ${screen.md} {
+    grid-row: 1;
+    &.image {
+      grid-column: 2;
+    }
+    &.content {
+      grid-column: 1;
+    }
   }
 `;
 
