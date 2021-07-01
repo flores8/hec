@@ -5,7 +5,7 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import { MDXRenderer } from "gatsby-plugin-mdx";
 import Layout from "../components/MainLayout/Layout";
 import styled from "styled-components";
-import { font, spacing, borderRadius, width, screen } from "../utils";
+import { font, spacing, borderRadius, width } from "../utils";
 
 const postTemplate = ({ data }) => {
   const {

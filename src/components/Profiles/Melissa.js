@@ -127,9 +127,10 @@ const Image = styled.div`
   }
 
   .gatsby-image-wrapper {
-    border-radius: ${borderRadius.large};
     object-fit: cover;
     box-shadow: 4px 4px 13px 6px rgba(0, 0, 0, 0.22);
+    border-radius: ${borderRadius.large};
+    overflow: hidden;
   }
 `;
 const Background = styled.div`

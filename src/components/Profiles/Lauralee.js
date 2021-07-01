@@ -22,7 +22,7 @@ const Lauralee = () => {
             <Title>Chief Technology Officer</Title>
             <Bio className="flow">
               <p>
-                An entrepreneur, product designer, and front-end developer with
+                Lauralee is an entrepreneur, product designer, and front-end developer with
                 a background in human-computer interaction. She has been
                 designing and creating software for the past decade.
               </p>
@@ -83,9 +83,10 @@ const Image = styled.div`
   }
 
   .gatsby-image-wrapper {
-    border-radius: ${borderRadius.large};
     object-fit: cover;
     box-shadow: 4px 4px 13px 6px rgba(0, 0, 0, 0.22);
+    border-radius: ${borderRadius.large};
+    overflow: hidden;
   }
 `;
 const Background = styled.div`
