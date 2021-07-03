@@ -73,6 +73,10 @@ const Services = () => {
             headline="Internal / External Audit and Program Reviews"
             description="HEC Partners wants to help its clients facing audits and program reviews. We help our clients understand their compliance health before an audit or program review but we also work with clients facing negative audit or review findings in order to address shortcomings and clear findings. We can not make audits and program reviews go away but we can help them no longer be dreaded."
           />
+          <TwoColumnsImageRight
+            headline="FERPA Unauthorized Disclosure Remediation Plans"
+            description="HEC Partners works with its clients to address FERPA unauthorized disclosures of personally identifiable information (PII). Unauthorized disclosures happen on small or large scales. HEC Partners can help develop a FERPA unauthorized disclosure remediation plan to address such topics as notification of the disclosure and remediation so that continued disclosures do not occur. HEC Partners also works with clients on disclosure avoidance and implementing best practices related to safeguarding student data."
+          />
         </NonFullWidth>
       </Layout>
     </>
