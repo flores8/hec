@@ -32,6 +32,7 @@ const Services = () => {
             description="We help ensure your education program and activities operate in a nondiscriminatory manner free of discrimination based on sex, including sexual orientation and gender identity. We provide policy development and review, investigate allegations of discrimiantion/harassment or retaliation for seeking redress under Title IX policies."
           />
           <TwoColumnsImageLeft
+            image="title-vi"
             headline="Title VI"
             description="Title VI of the Civil Rights Act of 1964 protects people from discrimination based on race, color or national origin in programs or activities that receive Federal financial assistance. We will work with you to draft policies and procedures consistent with Title VI compliance, investigate complaints of discrimination, and draft Title VI action plans. "
           />
