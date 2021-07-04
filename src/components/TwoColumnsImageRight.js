@@ -1,14 +1,13 @@
 import React from "react";
 import styled from "styled-components";
 import { spacing, font, screen, gray, borderRadius } from "../utils";
+import TitleIx from "../images/svg/services/title-ix.svg";
 
-const TwoColumnsImageRight = ({ headline, description }) => {
+const TwoColumnsImageRight = ({ headline, description, image }) => {
   return (
     <ColumnWrapper className="animate">
       <Column className="image">
-        <ImageWrapper>
-          <p>image here...</p>
-        </ImageWrapper>
+        <ImageWrapper>{image === "title-ix" && <TitleIx />}</ImageWrapper>
       </Column>
       <Column className="content">
         <Header>{headline}</Header>
@@ -34,6 +33,10 @@ const ColumnWrapper = styled.section`
 
 const Column = styled.div`
   color: ${gray.five};
+  text-align: center;
+  @media ${screen.md} {
+    text-align: left;
+  }
   .header-visual {
     width: 20%;
   }
@@ -60,25 +63,19 @@ const Description = styled.p`
 `;
 
 const ImageWrapper = styled.div`
-  width: 85%;
-  @media ${screen.lg} {
+  margin: ${spacing.s10} auto 0;
+  text-align: center;
+  width: 50%;
+  @media ${screen.md} {
     width: 100%;
+    margin-block-start: 0;
   }
   z-index: 1;
   .gatsby-image-wrapper {
     border-radius: ${borderRadius.large};
   }
   svg {
-    width: 75%;
-    position: absolute;
-    z-index: -1;
-    right: -10%;
-    bottom: 10%;
-    transform: rotate(-90deg);
-    @media ${screen.lg} {
-      right: 10%;
-      bottom: -7%;
-      transform: rotate(0deg);
-    }
+    width: 100%;
+    height: auto;
   }
 `;

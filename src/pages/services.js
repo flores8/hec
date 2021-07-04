@@ -22,10 +22,12 @@ const Services = () => {
             includeLink={"false"}
           />
           <TwoColumnsImageLeft
+            image="civil-rights"
             headline="Civil rights (Title IX, Title VI, ADA/504, etc.)"
             description="We believe that compliance is about more than just following the law. True compliance integrates a commitment to providing students, campus employees, and community partners with a safe environment in which to access and participate in education and educational activities."
           />
           <TwoColumnsImageRight
+            image="title-ix"
             headline="Title IX"
             description="We help ensure your education program and activities operate in a nondiscriminatory manner free of discrimination based on sex, including sexual orientation and gender identity. We provide policy development and review, investigate allegations of discrimiantion/harassment or retaliation for seeking redress under Title IX policies."
           />
