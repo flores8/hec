@@ -2,12 +2,16 @@ import React from "react";
 import styled from "styled-components";
 import { spacing, font, screen, gray, borderRadius } from "../utils";
 import TitleIx from "../images/svg/services/title-ix.svg";
+import Ada from "../images/svg/services/ada-504.svg";
 
 const TwoColumnsImageRight = ({ headline, description, image }) => {
   return (
     <ColumnWrapper className="animate">
       <Column className="image">
-        <ImageWrapper>{image === "title-ix" && <TitleIx />}</ImageWrapper>
+        <ImageWrapper>
+          {image === "title-ix" && <TitleIx />}
+          {image === "ada-504" && <Ada />}
+        </ImageWrapper>
       </Column>
       <Column className="content">
         <Header>{headline}</Header>

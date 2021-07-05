@@ -37,6 +37,7 @@ const Services = () => {
             description="Title VI of the Civil Rights Act of 1964 protects people from discrimination based on race, color or national origin in programs or activities that receive Federal financial assistance. We will work with you to draft policies and procedures consistent with Title VI compliance, investigate complaints of discrimination, and draft Title VI action plans. "
           />
           <TwoColumnsImageRight
+            image="ada-504"
             headline="ADA/504"
             description="Public colleges, universities, and private institutions of higher education that receive federal funding have a legal obligation to ensure that all environments across the campus are made accessible to all students, including students with disabilities. We can help you become familiar with legal mandates for digital and web-based technologies, responding to complaints of discrimination or failure to accommodate, and developing and reviewing institutional policies and training. "
           />
