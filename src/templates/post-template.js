@@ -66,6 +66,19 @@ const Post = styled.article`
   margin-block-start: ${spacing.s8};
   padding-inline-start: ${spacing.s4};
   padding-inline-end: ${spacing.s4};
+  h2 {
+    font-size: ${font.s7};
+    line-height: 1.1;
+    margin-top: ${spacing.s9};
+  }
+  h3 {
+    font-size: ${font.s6};
+    line-height: 1.2;
+    margin-top: ${spacing.s8};
+  }
+  p {
+    font-size: ${font.s5};
+  }
 `;
 
 export const query = graphql`
