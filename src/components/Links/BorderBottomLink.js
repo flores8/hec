@@ -30,7 +30,7 @@ const LinkAnimation = styled(Link)`
   text-decoration: none;
   color: ${gray.five};
   font-weight: bold;
-  border-bottom: 4px solid ${gray.two};
+  border-block-end: 4px solid ${gray.two};
   font-size: ${font.s4};
   margin-block-start: ${spacing.s6};
   .right-arrow {

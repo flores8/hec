@@ -5,7 +5,16 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import { MDXRenderer } from "gatsby-plugin-mdx";
 import Layout from "../components/MainLayout/Layout";
 import styled from "styled-components";
-import { font, spacing, borderRadius, width } from "../utils";
+import {
+  font,
+  spacing,
+  borderRadius,
+  width,
+  gray,
+  transition,
+  red,
+  teal,
+} from "../utils";
 
 const postTemplate = ({ data }) => {
   const {
@@ -78,6 +87,30 @@ const Post = styled.article`
   }
   p {
     font-size: ${font.s5};
+    a {
+      outline: none;
+      position: relative;
+      display: inline-block;
+      text-decoration: none;
+      color: ${gray.five};
+      border-block-end: 4px solid ${gray.two};
+      &:after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 0;
+        height: 4px;
+        background: ${red.three};
+        transition: width ${transition.reg};
+        border-radius: 2px;
+      }
+      &:hover {
+        cursor: pointer;
+        &:after {
+          width: 100%;
+        }
+      }
+    }
   }
 `;
 
