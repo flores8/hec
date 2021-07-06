@@ -42,8 +42,9 @@ const Services = () => {
             description="Public colleges, universities, and private institutions of higher education that receive federal funding have a legal obligation to ensure that all environments across the campus are made accessible to all students, including students with disabilities. We can help you become familiar with legal mandates for digital and web-based technologies, responding to complaints of discrimination or failure to accommodate, and developing and reviewing institutional policies and training. "
           />
           <TwoColumnsImageLeft
-            headline="Regulatory compliance"
-            description="Higher education is experiencing a time where regulatory activity is rapidly increasing. HEC Partners works with its clients to build an institutional Compliance Matrix. We can also assists you in creating and supporting an institutional culture of compliance, which includes effective policy development, training, internal communication strategies, and a quality assurance program. "
+            image="regulatory-compliance"
+            headline="Regulatory Compliance"
+            description="Higher education is experiencing a time where regulatory activity is rapidly increasing. HEC Partners works with its clients to build an Institutional Compliance Matrix. We can also assists you in creating and supporting an institutional culture of compliance, which includes effective policy development, training, internal communication strategies, and a quality assurance program. "
           />
           <TwoColumnsImageRight
             headline="Human Resources"

@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { spacing, font, screen, gray, borderRadius } from "../utils";
 import CivilRights from "../images/svg/services/civil-rights.svg";
 import TitleVi from "../images/svg/services/title-vi.svg";
+import Compliance from "../images/svg/services/regulatory-compliance.svg";
 
 const TwoColumnsImageRight = ({ headline, description, image }) => {
   return (
@@ -11,6 +12,7 @@ const TwoColumnsImageRight = ({ headline, description, image }) => {
         <ImageWrapper>
           {image === "civil-rights" && <CivilRights />}
           {image === "title-vi" && <TitleVi />}
+          {image === "regulatory-compliance" && <Compliance />}
         </ImageWrapper>
       </Column>
       <Column>
