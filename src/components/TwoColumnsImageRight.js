@@ -3,6 +3,8 @@ import styled from "styled-components";
 import { spacing, font, screen, gray, borderRadius } from "../utils";
 import TitleIx from "../images/svg/services/title-ix.svg";
 import Ada from "../images/svg/services/ada-504.svg";
+import HumanResources from "../images/svg/services/human-resources.svg";
+import StudentAid from "../images/svg/services/student-aid.svg";
 
 const TwoColumnsImageRight = ({ headline, description, image }) => {
   return (
@@ -11,6 +13,8 @@ const TwoColumnsImageRight = ({ headline, description, image }) => {
         <ImageWrapper>
           {image === "title-ix" && <TitleIx />}
           {image === "ada-504" && <Ada />}
+          {image === "human-resources" && <HumanResources />}
+          {image === "student-aid" && <StudentAid />}
         </ImageWrapper>
       </Column>
       <Column className="content">

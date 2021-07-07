@@ -47,14 +47,17 @@ const Services = () => {
             description="Higher education is experiencing a time where regulatory activity is rapidly increasing. HEC Partners works with its clients to build an Institutional Compliance Matrix. We can also assists you in creating and supporting an institutional culture of compliance, which includes effective policy development, training, internal communication strategies, and a quality assurance program. "
           />
           <TwoColumnsImageRight
+            image="human-resources"
             headline="Human Resources"
             description="The greatest strength of any organization is its people, and HEC Partners works with its clients to provide support and guidance their human resources staff needs to be in compliance with regulations and laws that impact institutions as a result of employee/employer interactions. We deliver customized Human Resources support including crafting internal policies, investigating complaints of discrimination and harassment, and progressive discipline procedures."
           />
           <TwoColumnsImageLeft
+            image="policy-development"
             headline="Policy Development"
             description="HEC Partners works with its clients in drafting durable institutional policies and procedures with effective design and simplified formatting for both easy readability and comprehension."
           />
           <TwoColumnsImageRight
+            image="student-aid"
             headline="Federal Student Aid (Title IV)"
             description="Properly administering Federal Student Aid programs is one of the most crucial aspects of maintaining institutional compliance. HEC Partners works with its clients to ensure compliance with federal regulations as they administer Title IV. We are experts in program reviews, single audits, internal audits, risk assessments, and general assessments of federal student aid administration. We have assisted clients in implementing proven methods to clear audit findings and identify potential risks. We can also assist clients who want to know the compliance health of their institutions."
           />

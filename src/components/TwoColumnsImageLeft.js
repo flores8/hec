@@ -4,6 +4,7 @@ import { spacing, font, screen, gray, borderRadius } from "../utils";
 import CivilRights from "../images/svg/services/civil-rights.svg";
 import TitleVi from "../images/svg/services/title-vi.svg";
 import Compliance from "../images/svg/services/regulatory-compliance.svg";
+import PolicyDevelopment from "../images/svg/services/policy-development.svg";
 
 const TwoColumnsImageRight = ({ headline, description, image }) => {
   return (
@@ -13,6 +14,7 @@ const TwoColumnsImageRight = ({ headline, description, image }) => {
           {image === "civil-rights" && <CivilRights />}
           {image === "title-vi" && <TitleVi />}
           {image === "regulatory-compliance" && <Compliance />}
+          {image === "policy-development" && <PolicyDevelopment />}
         </ImageWrapper>
       </Column>
       <Column>

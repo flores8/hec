@@ -13,7 +13,6 @@ import {
   gray,
   transition,
   red,
-  teal,
 } from "../utils";
 
 const postTemplate = ({ data }) => {
