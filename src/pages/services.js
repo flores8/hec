@@ -62,6 +62,7 @@ const Services = () => {
             description="Properly administering Federal Student Aid programs is one of the most crucial aspects of maintaining institutional compliance. HEC Partners works with its clients to ensure compliance with federal regulations as they administer Title IV. We are experts in program reviews, single audits, internal audits, risk assessments, and general assessments of federal student aid administration. We have assisted clients in implementing proven methods to clear audit findings and identify potential risks. We can also assist clients who want to know the compliance health of their institutions."
           />
           <TwoColumnsImageLeft
+            image="enrollment"
             headline="Enrollment Services"
             description="HEC Partners works with clients to build and provide core services to students in an effort to facilitate access to their education. Our principles include assisting clients in utilizing federal, state, and institutional funding sources to help students make informed decisions around college attendance and affordability. Our goal is simple. We want to be there for our clients so they can help their students persist and complete post secondary education."
           />
