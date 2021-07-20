@@ -67,6 +67,7 @@ const Services = () => {
             description="HEC Partners works with clients to build and provide core services to students in an effort to facilitate access to their education. Our principles include assisting clients in utilizing federal, state, and institutional funding sources to help students make informed decisions around college attendance and affordability. Our goal is simple. We want to be there for our clients so they can help their students persist and complete post secondary education."
           />
           <TwoColumnsImageRight
+            image="emergency-relief-funding"
             headline="Emergency Relief Funding / Administration / Compliance"
             description="The COVID-19 pandemic has affected everyone in tangible ways. During this time, it is important that institutions of higher education are equipped with systems that get Higher Education Emergency Relief funds in the hands of eligible students. HEC Partners works with clients to develop a system to automate the awarding processes to fund students in need, while still meeting compliance and federal reporting requirements."
           />
