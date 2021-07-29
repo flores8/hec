@@ -39,8 +39,8 @@ const IndexPage = () => {
             headline1="Federal and State Regulatory Compliance"
             headline2="Financial Aid"
             description1="Reduce the risk of costly legal battles by initiating a proactive regulatory compliance program. Whether you're in the middle of a legal battle or want to avoid one, we can help."
-            description2="Need help with long and short term strategic planning? Are you
-          utilizing financial aid to support student recruitment and retention?
+            description2="Are you
+          utilizing financial aid to support student access, persistence, and completion?
           Need help finding and distributing Higher Education Emergency Relief
           funds? We can help."
             link1={"/services"}
