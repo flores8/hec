@@ -72,6 +72,7 @@ const Services = () => {
             description="The COVID-19 pandemic has affected everyone in tangible ways. During this time, it is important that institutions of higher education are equipped with systems that get Higher Education Emergency Relief funds in the hands of eligible students. HEC Partners works with clients to develop a system to automate the awarding processes to fund students in need, while still meeting compliance and federal reporting requirements."
           />
           <TwoColumnsImageLeft
+            image="athletic"
             headline="Athletic Association and Conference Compliance"
             description="HEC Partners specializes in NCAA (all divisions) and athletic conference compliance. We can help you maximize federal, state, and institutional funding for your equivalency sports, help your head count sports understand exceptions to common myths around student-athlete eligibility for grants and scholarships beyond athletic scholarships. We can also work with your student-athletes to train on Title IX, Title VI, and Social Media and the First Amendment."
           />

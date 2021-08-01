@@ -31,41 +31,46 @@ const Annette = () => {
             <Title>Chief Executive Officer</Title>
             <Bio className="flow">
               <p>
-                Annette has almost 25 years of experience in higher education
+                Annette has 25 years of experience in higher education
                 administration with a demonstrated track record in successful
                 leadership and executive roles in financial aid administration,
-                compliance, and operations. Annette has served as Dean,
-                Executive Director, Director of Financial Aid, as well as
-                several executive roles as a consultant to serve short and long
-                term leadership needs.
+                compliance, and operations. Annette’s expertise includes all
+                areas of financial aid operations and compliance, system
+                automation, streamlined processing and communications to ensure
+                optimal student service, while meeting applicable compliance and
+                Federal Student Aid administrative capability requirements.
+                Annette has helped countless students across the country access
+                higher education through financial aid, scholarship, and grant
+                opportunities.
               </p>
               <p>
-                Annette has extensive experience in higher education and
-                non-profit organizations, as well as athletics administration at
-                the Division I, II, and III level, Division I relative to all
-                aspects of NCAA and conference governance over federal, state,
-                and institutional financial aid and scholarships, NCAA
-                legislative authority and operating bylaws, as well as
-                comprehensive experience and expert knowledge in athletic
-                equivalency and head count sports, calculations, and exemptions.
-                Annette is also skilled in grant writing and grant
-                administration from various funding sources and organizations.
+                Annette has extensive experience in higher education, profit and
+                non-profit organizations, grant writing and administration,
+                veteran’s education benefits, scholarship best practice to
+                ensure equity, while meeting the needs of students and
+                institutional goals. Annette is skilled in athletics
+                administration and compliance with financial aid at the Division
+                I, II, and III level, relative to all aspects of federal student
+                aid, collegiate associations and conference governance over
+                federal, state, and institutional financial aid and
+                scholarships. NCAA legislative authority and operating bylaws,
+                as well as comprehensive experience and expert knowledge in
+                athletic equivalency and head count sports, calculations, and
+                exemptions.
               </p>
               <p>
                 Annette has proven success in building and maintaining positive
-                relationships with all relative constituents, communities,
-                scholarship donors, students, diverse populations,
-                student-athletes, and institutional officials. Annette has been
-                commended throughout her professional career for outstanding
-                interpersonal communication, organization, and problem solving
-                skills, as well as the ability to work constructively under
-                pressure while successfully meeting deadlines.
+                relationships, commended throughout her professional career for
+                outstanding interpersonal communication, organization, and
+                problem solving skills, as well as the ability to work
+                constructively under pressure while successfully meeting
+                deadlines.
               </p>
               <p>
                 Annette earned her Bachelor of Science in Psychology from the
                 University of South Florida, Master of Business Administration
-                from Saint Leo University, and is working on her PhD in Higher
-                Education Leadership (ABD) from Grand Canyon University.
+                from Saint Leo University, and is currently PhD Candidate in
+                Higher Education Leadership with Grand Canyon University.
               </p>
               <p>Consulting Specialties:</p>
             </Bio>
