@@ -22,9 +22,14 @@ const Lauralee = () => {
             <Title>Chief Technology Officer</Title>
             <Bio className="flow">
               <p>
-                Lauralee is an entrepreneur, product designer, and front-end developer with
-                a background in human-computer interaction. She has been
-                designing and creating software for the past decade.
+                Lauralee Flores is an accomplished product designer, front-end
+                developer, usability professional, and entrepreneur. She has
+                been designing and creating software for the past decade.
+              </p>
+              <p>
+                She has extensive experience planning, coordinating, and
+                overseeing projects while ensuring they are completed on time,
+                within both budget and scope.
               </p>
               <p>Consulting Specialties:</p>
             </Bio>
