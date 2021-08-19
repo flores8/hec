@@ -29,7 +29,7 @@ const Services = () => {
           <TwoColumnsImageRight
             image="title-ix"
             headline="Title IX"
-            description="We help ensure your education program and activities operate in a nondiscriminatory manner free of discrimination based on sex, including sexual orientation and gender identity. We provide policy development and review, investigate allegations of discrimiantion/harassment or retaliation for seeking redress under Title IX policies."
+            description="We help ensure your education program and activities operate in a nondiscriminatory manner free of discrimination based on sex, including sexual orientation and gender identity. We provide policy development and review, investigate allegations of discrimination/harassment or retaliation for seeking redress under Title IX policies."
           />
           <TwoColumnsImageLeft
             image="title-vi"
