@@ -6,6 +6,8 @@ import Ada from "../images/svg/services/ada-504.svg";
 import HumanResources from "../images/svg/services/human-resources.svg";
 import StudentAid from "../images/svg/services/student-aid.svg";
 import EmergencyRelief from "../images/svg/services/emergency-relief-funding.svg";
+import Ie from "../images/svg/services/ie.svg";
+import Ferpa from "../images/svg/services/ferpa.svg";
 
 const TwoColumnsImageRight = ({ headline, description, image }) => {
   return (
@@ -17,6 +19,8 @@ const TwoColumnsImageRight = ({ headline, description, image }) => {
           {image === "human-resources" && <HumanResources />}
           {image === "student-aid" && <StudentAid />}
           {image === "emergency-relief-funding" && <EmergencyRelief />}
+          {image === "ie" && <Ie />}
+          {image === "ferpa" && <Ferpa />}
         </ImageWrapper>
       </Column>
       <Column className="content">

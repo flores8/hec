@@ -7,6 +7,7 @@ import Compliance from "../images/svg/services/regulatory-compliance.svg";
 import PolicyDevelopment from "../images/svg/services/policy-development.svg";
 import Enrollment from "../images/svg/services/enrollment.svg";
 import Athletic from "../images/svg/services/athletic-association.svg";
+import Audit from "../images/svg/services/audit.svg";
 
 const TwoColumnsImageRight = ({ headline, description, image }) => {
   return (
@@ -19,6 +20,7 @@ const TwoColumnsImageRight = ({ headline, description, image }) => {
           {image === "policy-development" && <PolicyDevelopment />}
           {image === "enrollment" && <Enrollment />}
           {image === "athletic" && <Athletic />}
+          {image === "audit" && <Audit />}
         </ImageWrapper>
       </Column>
       <Column>

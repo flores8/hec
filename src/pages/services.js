@@ -77,14 +77,17 @@ const Services = () => {
             description="HEC Partners specializes in NCAA (all divisions) and athletic conference compliance. We can help you maximize federal, state, and institutional funding for your equivalency sports, help your head count sports understand exceptions to common myths around student-athlete eligibility for grants and scholarships beyond athletic scholarships. We can also work with your student-athletes to train on Title IX, Title VI, and Social Media and the First Amendment."
           />
           <TwoColumnsImageRight
+            image="ie"
             headline="Institutional Effectiveness and Data Analysis"
             description="Successful organizations use data to drive decisions but Financial Aid can be confusing and often perceived as inconsistent with enrollment and strategic goals. Some even argue Financial Aid regulations can be a barrier to student enrollment. HEC Partners can help our clients understand how to use financial aid data and analysis to support their institutional mission, goals, recruitment, and retention."
           />
           <TwoColumnsImageLeft
+            image="audit"
             headline="Internal / External Audit and Program Reviews"
             description="HEC Partners wants to help its clients facing audits and program reviews. We help our clients understand their compliance health before an audit or program review but we also work with clients facing negative audit or review findings in order to address shortcomings and clear findings. We can not make audits and program reviews go away but we can help them no longer be dreaded."
           />
           <TwoColumnsImageRight
+            image="ferpa"
             headline="FERPA Unauthorized Disclosure Remediation Plans"
             description="HEC Partners works with its clients to address FERPA unauthorized disclosures of personally identifiable information (PII). Unauthorized disclosures happen on small or large scales. HEC Partners can help develop a FERPA unauthorized disclosure remediation plan to address such topics as notification of the disclosure and remediation so that continued disclosures do not occur. HEC Partners also works with clients on disclosure avoidance and implementing best practices related to safeguarding student data."
           />

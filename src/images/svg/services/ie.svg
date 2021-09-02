@@ -1,0 +1,26 @@
+<svg viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+  <g fill="none" fill-rule="evenodd">
+    <path d="M368.19 706c117.054 13.172 184.782 92.291 315.727 20.828C859.507 631 727.292 404.78 727.292 355c0-67.995 17.03-171-60.514-258-77.544-87-282.487-24.027-382.61 15.215C89.557 188.489 13.48 482 44.48 615.052 76.94 754.357 196.443 686.673 368.19 706z" fill-opacity=".11" fill="#C084FC"/>
+    <path fill="#94A3B8" d="M66 594h678v6H66z"/>
+    <g transform="translate(123 288)" stroke="#14B8A6" stroke-width="3">
+      <rect fill="#2DD4BF" x="1.5" y="1.5" width="104" height="303" rx="8"/>
+      <path fill="#F0FDFA" d="M1.5 66.5h104v76H1.5z"/>
+    </g>
+    <g transform="translate(271 225)">
+      <rect stroke="#38BDF8" stroke-width="3" fill="#BAE6FD" x="1.5" y="1.5" width="104" height="367" rx="8"/>
+      <path fill="#0EA5E9" d="M3 28h101v4H3z"/>
+      <path fill="#F0F9FF" d="M3 32h101v9H3zM3 84h101v9H3zM3 277h101v9H3zM3 329h101v9H3z"/>
+      <path fill="#0EA5E9" d="M3 41h101v4H3zM3 80h101v4H3zM3 93h101v4H3zM3 273h101v4H3zM3 286h101v4H3zM3 325h101v4H3zM3 338h101v4H3z"/>
+    </g>
+    <rect stroke="#FDE047" stroke-width="3" fill="#FEF08A" x="231.5" y="256.5" width="38" height="337" rx="8"/>
+    <g transform="translate(378 288)">
+      <rect stroke="#C084FC" stroke-width="3" fill="#E9D5FF" x="1.5" y="1.5" width="56" height="304" rx="8"/>
+      <rect stroke="#D8B4FE" stroke-width="4" fill="#FAF5FF" x="18" y="27" width="21" height="255" rx="10.5"/>
+    </g>
+    <rect stroke="#94A3B8" stroke-width="3" fill="#E2E8F0" x="438.5" y="289.5" width="50" height="304" rx="8"/>
+    <g transform="rotate(-24 803.838 -977.807)">
+      <rect stroke="#FDA4AF" stroke-width="3" fill="#FFE4E6" x="1.5" y="1.5" width="69" height="385" rx="8"/>
+      <rect fill="#FDA4AF" x="33" y="46.762" width="6" height="295.739" rx="3"/>
+    </g>
+  </g>
+</svg>
