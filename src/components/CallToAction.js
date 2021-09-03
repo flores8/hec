@@ -11,8 +11,8 @@ const CallToAction = () => {
         <ComplianceReport className="svg" />
         <Title>See an example of our work</Title>
         <Subtitle>
-          Sign up to get an idea of what kind of compliance plan we could put
-          together for your institution.
+          Do you know your instituation's compliance health? Sign up to get an
+          idea of what we can do to support your institution's compliance needs.
         </Subtitle>
         <Form button={"See Compliance Plan"} />
       </InsideWrapper>
@@ -54,7 +54,7 @@ const Subtitle = styled.p`
   padding-inline-start: ${spacing.s8};
   padding-inline-end: ${spacing.s8};
   @media ${screen.md} {
-    padding-inline-start: ${spacing.s12};
-    padding-inline-end: ${spacing.s12};
+    padding-inline-start: ${spacing.s10};
+    padding-inline-end: ${spacing.s10};
   }
 `;
