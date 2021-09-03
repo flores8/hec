@@ -11,7 +11,7 @@ const CallToAction = () => {
         <ComplianceReport className="svg" />
         <Title>See an example of our work</Title>
         <Subtitle>
-          Do you know your instituation's compliance health? Sign up to get an
+          Do you know your institution's compliance health? Sign up to get an
           idea of what we can do to support your institution's compliance needs.
         </Subtitle>
         <Form button={"See Compliance Plan"} />
