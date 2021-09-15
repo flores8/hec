@@ -1,20 +1,22 @@
 import React from "react";
 import styled from "styled-components";
 import { gray, spacing, font, width, screen } from "../utils";
-import ComplianceReport from "../images/svg/compliance-report.svg";
+import EmergencyRelief from "../images/svg/heerf.svg";
 import Form from "../components/Forms/LeadGen";
 
 const CallToAction = () => {
   return (
     <OutsideWrapper>
       <InsideWrapper className="animate">
-        <ComplianceReport className="svg" />
-        <Title>See an example of our work</Title>
+        <EmergencyRelief className="svg" />
+        <Title>
+          Need help with your Higher Education Emergency Relief Funding (HEERF)?
+        </Title>
         <Subtitle>
-          Do you know your institution's compliance health? Sign up to get an
-          idea of what we can do to support your institution's compliance needs.
+          Are you struggling with reporting or administreing your CARES, CRRSA,
+          or ARPA money? We can help. Sign up to get a free consultation.
         </Subtitle>
-        <Form button={"See Compliance Plan"} />
+        <Form button={"Get a free consultation"} />
       </InsideWrapper>
     </OutsideWrapper>
   );
@@ -34,7 +36,7 @@ const InsideWrapper = styled.div`
   max-width: ${width.lg};
   margin: auto;
   .svg {
-    max-width: 10rem;
+    max-width: 20rem;
     margin: auto;
   }
 `;

@@ -18,7 +18,7 @@ const Blog = () => {
             headlinePunctuation={"."}
             headlinePeriod={"red"}
             subtitle={
-              "Covering all things compliance and financial aid related."
+              "Covering all things related to compliance and financial aid."
             }
             includeLink={"false"}
           />
