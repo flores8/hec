@@ -42,7 +42,12 @@ const TestimonialForm = ({ button }) => {
           <textarea type="text" name="additional-thoughts" />
         </label>
         <label className="terms">
-          <input type="checkbox" name="terms" value="agree-to-terms" required />{" "}
+          <input
+            type="checkbox"
+            name="terms"
+            value="Agreed to terms"
+            required
+          />{" "}
           I acknowledge and accept that what I wrote may be posted on HEC
           Partner’s website and/or marketing materials.
         </label>
