@@ -117,11 +117,11 @@ const FormWrapper = styled.div`
   .email {
     grid-area: email;
   }
-  .message {
-    grid-area: message;
+  .testimonial {
+    grid-area: testimonial;
   }
-  .share {
-    grid-area: share;
+  .additional-thoughts {
+    grid-area: additional-thoughts;
   }
   .terms {
     grid-area: terms;
