@@ -16,14 +16,14 @@ const TestimonialForm = ({ button }) => {
     <FormWrapper className="animate">
       <form
         className="flow"
-        name="contact-form"
+        name="testimonial-form"
         method="POST"
         netlify-honeypot="bot-field"
         data-netlify="true"
         action="/success-testimonial"
       >
         <input type="hidden" name="bot-field" />
-        <input type="hidden" name="form-name" value="contact-form" />
+        <input type="hidden" name="form-name" value="testimonial-form" />
         <label className="name">
           Full Name
           <input type="text" name="name" required />
@@ -32,14 +32,14 @@ const TestimonialForm = ({ button }) => {
           Email
           <input type="email" name="email" required />
         </label>
-        <label className="message">
+        <label className="testimonial">
           If a friend was considering hiring HEC Partners, what would you tell
           them? How was your experience working with us?
-          <textarea type="text" name="message" required />
+          <textarea type="text" name="testimonial" required />
         </label>
-        <label className="share">
+        <label className="additional-thoughts">
           Anything else you’d like to share?
-          <textarea type="text" name="share" />
+          <textarea type="text" name="additional-thoughts" />
         </label>
         <label className="terms">
           <input type="checkbox" name="terms" value="agree-to-terms" required />{" "}
@@ -94,16 +94,16 @@ const FormWrapper = styled.div`
     grid-template-areas:
       "name"
       "email"
-      "message"
-      "share"
+      "testimonial"
+      "additional-thoughts"
       "terms"
       "button";
     @media ${screen.md} {
       grid-template-columns: 1fr 1fr;
       grid-template-areas:
         "name email"
-        "message message"
-        "share share"
+        "testimonial testimonial"
+        "additional-thoughts additional-thoughts"
         "terms terms"
         "button button";
     }
