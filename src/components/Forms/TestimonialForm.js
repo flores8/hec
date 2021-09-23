@@ -20,7 +20,7 @@ const TestimonialForm = ({ button }) => {
         method="POST"
         netlify-honeypot="bot-field"
         data-netlify="true"
-        action="/success"
+        action="/success-testimonial"
       >
         <input type="hidden" name="bot-field" />
         <input type="hidden" name="form-name" value="contact-form" />
@@ -35,15 +35,15 @@ const TestimonialForm = ({ button }) => {
         <label className="message">
           If a friend was considering hiring HEC Partners, what would you tell
           them? How was your experience working with us?
-          <textarea type="text" name="message" />
+          <textarea type="text" name="message" required />
         </label>
         <label className="share">
           Anything else you’d like to share?
           <textarea type="text" name="share" />
         </label>
         <label className="terms">
-          <input type="checkbox" name="terms" value="agree-to-terms" /> I
-          acknowledge and accept that what I wrote may be posted on HEC
+          <input type="checkbox" name="terms" value="agree-to-terms" required />{" "}
+          I acknowledge and accept that what I wrote may be posted on HEC
           Partner’s website and/or marketing materials.
         </label>
         <button type="submit">{button}</button>
