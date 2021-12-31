@@ -10,7 +10,7 @@ const Lauralee = () => {
         <Image>
           <StaticImage
             src="../../images/lauralee.jpg"
-            alt="Lauralee Flores - Chief Technology Officer, HEC Partners."
+            alt="Lauralee Flores - Chief Operating Officer, HEC Partners."
             placeholder="blurred"
             width={450}
             height={450}
@@ -19,7 +19,7 @@ const Lauralee = () => {
         <Background>
           <Content>
             <Name>Lauralee Flores</Name>
-            <Title>Chief Technology Officer</Title>
+            <Title>Chief Operating Officer</Title>
             <Bio className="flow">
               <p>
                 Lauralee Flores is an accomplished product designer, front-end
