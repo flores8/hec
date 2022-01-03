@@ -34,11 +34,11 @@ const Lauralee = () => {
               <p>Consulting Specialties:</p>
             </Bio>
             <SpecialtyWrapper className="flow">
-              <Specialty>Technology Implications in Compliance</Specialty>
-              <Specialty>External Communications</Specialty>
               <Specialty>Project / Program Management</Specialty>
-              <Specialty>Business Process</Specialty>
+              <Specialty>External Communications</Specialty>
               <Specialty>Strategic Online Program Management</Specialty>
+              <Specialty>Business Process</Specialty>
+              <Specialty>Technology Implications in Compliance</Specialty>
             </SpecialtyWrapper>
           </Content>
         </Background>
