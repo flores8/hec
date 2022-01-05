@@ -9,6 +9,7 @@ import { NonFullWidth } from "../components/MainLayout/ComponentWrapper";
 import Annette from "../components/Profiles/Annette";
 import Melissa from "../components/Profiles/Melissa";
 import Lauralee from "../components/Profiles/Lauralee";
+import Pat from "../components/Profiles/Pat";
 
 const About = () => {
   return (
@@ -54,6 +55,7 @@ const About = () => {
           <Annette />
           <Melissa />
           <Lauralee />
+          <Pat />
         </NonFullWidth>
       </Layout>
     </>
