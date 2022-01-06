@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { StaticImage } from "gatsby-plugin-image";
-import { font, gray, spacing, screen, borderRadius, teal } from "../../utils";
+import { font, gray, spacing, screen, borderRadius } from "../../utils";
 
 const Pat = () => {
   return (
@@ -158,20 +158,5 @@ const Bio = styled.div`
   margin-block-start: ${spacing.s2};
   p {
     font-size: ${font.s20};
-  }
-`;
-
-const SpecialtyWrapper = styled.ul`
-  padding-left: ${spacing.s6};
-`;
-const Specialty = styled.li`
-  font-size: ${font.s20};
-  margin-block-start: ${spacing.s2};
-  margin-inline-start: ${spacing.s4};
-  --flow-space: ${spacing.s4};
-  &:before {
-    content: "\u2713";
-    color: ${teal.four};
-    margin-inline-end: ${spacing.s2};
   }
 `;
