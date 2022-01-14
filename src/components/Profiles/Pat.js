@@ -18,7 +18,7 @@ const Pat = () => {
         </Image>
         <Background>
           <Content>
-            <Name>Patrick Durnham</Name>
+            <Name>Patrick Burnham</Name>
             <Title>VP of Athletic Client Services</Title>
             <Bio className="flow">
               <p>
