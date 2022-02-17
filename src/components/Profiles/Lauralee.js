@@ -19,27 +19,19 @@ const Lauralee = () => {
         <Background>
           <Content>
             <Name>Lauralee Flores</Name>
-            <Title>Chief Operating Officer</Title>
+            <Title>Chief Operating Officer, Head of Product Management</Title>
             <Bio className="flow">
               <p>
-                Lauralee Flores is an accomplished product designer, front-end
-                developer, usability professional, and entrepreneur. She has
-                been designing and creating software for the past decade.
+                Lauralee Flores is a product manager, product designer, and
+                usability professional. Her role at HEC is project and product
+                management, product positioning, and branding.
               </p>
               <p>
                 She has extensive experience planning, coordinating, and
                 overseeing projects while ensuring they are completed on time,
                 within both budget and scope.
               </p>
-              <p>Consulting Specialties:</p>
             </Bio>
-            <SpecialtyWrapper className="flow">
-              <Specialty>Project / Program Management</Specialty>
-              <Specialty>External Communications</Specialty>
-              <Specialty>Strategic Online Program Management</Specialty>
-              <Specialty>Business Process</Specialty>
-              <Specialty>Technology Implications in Compliance</Specialty>
-            </SpecialtyWrapper>
           </Content>
         </Background>
       </Profile>
