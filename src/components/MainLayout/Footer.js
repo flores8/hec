@@ -8,7 +8,7 @@ const Footer = () => {
     <FooterWrapper>
       <Content>
         <Copyright>
-          <Text>© 2021 HEC Partners</Text>
+          <Text>© {new Date().getFullYear()} HEC Partners</Text>
         </Copyright>
         <Links>
           <NavLinks />
