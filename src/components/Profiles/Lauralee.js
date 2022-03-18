@@ -19,7 +19,7 @@ const Lauralee = () => {
         <Background>
           <Content>
             <Name>Lauralee Flores</Name>
-            <Title>Chief Operating Officer, Head of Product Management</Title>
+            <Title>Chief Operating Officer, Head of Product</Title>
             <Bio className="flow">
               <p>
                 Lauralee Flores is a product manager, product designer, and
