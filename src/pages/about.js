@@ -10,6 +10,7 @@ import Annette from "../components/Profiles/Annette";
 import Melissa from "../components/Profiles/Melissa";
 import Lauralee from "../components/Profiles/Lauralee";
 import Pat from "../components/Profiles/Pat";
+import Bea from "../components/Profiles/Bea";
 
 const About = () => {
   return (
@@ -55,6 +56,7 @@ const About = () => {
           <Annette />
           <Melissa />
           <Lauralee />
+          <Bea />
           <Pat />
         </NonFullWidth>
       </Layout>
