@@ -55,7 +55,6 @@ const About = () => {
           <Annette />
           <Melissa />
           <Lauralee />
-          <Bea />
         </NonFullWidth>
       </Layout>
     </>
