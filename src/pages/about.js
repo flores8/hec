@@ -9,7 +9,7 @@ import { NonFullWidth } from "../components/MainLayout/ComponentWrapper";
 import Annette from "../components/Profiles/Annette";
 import Melissa from "../components/Profiles/Melissa";
 import Lauralee from "../components/Profiles/Lauralee";
-import Bea from "../components/Profiles/Bea";
+// import Karla from "../components/Profiles/Karla";
 
 const About = () => {
   return (
