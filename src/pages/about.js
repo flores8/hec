@@ -22,7 +22,7 @@ const About = () => {
             headlinePunctuation={"."}
             headlinePeriod={"yellow"}
             subtitle={
-              "It all in the name. When it comes to compliance, every institution needs a game plan. Setting direction. Building capacity. Due diligence, assessment, assurance. At HEC Game Plan, we demystify compliance and advance administrative proficiency across higher education."
+              "It's all in the name. When it comes to compliance, every institution needs a game plan. Setting direction. Building capacity. Due diligence, assessment, assurance. At HEC Game Plan, we demystify compliance and advance administrative proficiency across higher education."
             }
             includeLink={"false"}
           />
