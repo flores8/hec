@@ -9,7 +9,7 @@ import { NonFullWidth } from "../components/MainLayout/ComponentWrapper";
 import Annette from "../components/Profiles/Annette";
 import Melissa from "../components/Profiles/Melissa";
 import Lauralee from "../components/Profiles/Lauralee";
-// import Karla from "../components/Profiles/Karla";
+import Karla from "../components/Profiles/Karla";
 
 const About = () => {
   return (
@@ -22,7 +22,7 @@ const About = () => {
             headlinePunctuation={"."}
             headlinePeriod={"yellow"}
             subtitle={
-              "At Higher Education Compliance Partners, we are dedicated to advance the compliance and administrative proficiency across higher educational institutions."
+              "It all in the name. When it comes to compliance, every institution needs a game plan. Setting direction. Building capacity. Due diligence, assessment, assurance. At HEC Game Plan, we demystify compliance and advance administrative proficiency across higher education."
             }
             includeLink={"false"}
           />
@@ -53,6 +53,7 @@ const About = () => {
             <PageHeadline>Leadership Team</PageHeadline>
           </Container>
           <Annette />
+          <Karla />
           <Melissa />
           <Lauralee />
         </NonFullWidth>

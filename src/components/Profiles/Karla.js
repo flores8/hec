@@ -10,7 +10,7 @@ const Pat = () => {
         <Image>
           <StaticImage
             src="../../images/karla.jpg"
-            alt="Karla - Vice President of Client Relations, HEC Partners."
+            alt="Karla - Chief Operating Officer, HEC Partners."
             placeholder="blurred"
             width={450}
             height={450}
@@ -18,48 +18,51 @@ const Pat = () => {
         </Image>
         <Background>
           <Content>
-            <Name>Beatrice Rendon</Name>
-            <Title>VP of Client Relations</Title>
+            <Name>Karla Fisher, Ph.D.</Name>
+            <Title>Chief Operating Officer</Title>
             <Bio className="flow">
               <p>
-                Beatrice has 19 years of experience in higher education
-                administration. Beatrice’s expertise includes all areas of
-                financial aid operations, system set-up, organizational
-                effectiveness, quality assurance, data governance, employee
-                leadership and skills development, system/software
-                implementation, and student communication.
+                Karla Fisher brings 22 years of experience in higher education
+                leadership, as well as more than a decade of corporate
+                experience. Having led transformational initiatives at multiple
+                institutions, her expertise lies in helping leaders and teams
+                honestly assess their current state, envision future success,
+                and create strategic and tactical plans using data-informed,
+                interest-based problem solving and inclusive change management.
+                She provides team training and support, as well as individual
+                coaching and mentoring, recognizing that sustainable change
+                begins and ends with people.
               </p>
               <p>
-                She has utilized her extensive data analysis experience to make
-                data driven decisions, which has resulted in successful process
-                improvements, and realization of significant efficiency gains.
+                Karla served as an HLC Accreditation Peer-Reviewer for more than
+                a decade. She has been actively involved at the state and
+                national levels through active roles with American Association
+                of Community Colleges (AACC) Commissions on Marketing/Outreach
+                and Transformation; the AACC 21st-Century Initiative; and the
+                National Community College Benchmark Project. She graduated from
+                the Advance Kansas diversity leadership program in 2011; was
+                named the National Council of Instructional Administrators
+                (NCIA) Chief Academic Officer of the Year in 2015; and is a 2018
+                Aspen Presidential Fellow alum.
               </p>
               <p>
-                Beatrice has led large organizations through the identification,
-                implementation, and adoption of new software solutions. She has
-                also developed and led complex restructuring initiatives to
-                insource critical services, including financial aid processing
-                and call centers. Her ability to identify process improvements,
-                develop and implement comprehensive strategies, engage
-                stakeholders through effective relationship building and
-                communication, and effectively drive change, has resulted in
-                significant cost savings and return on investment.
+                Karla earned her Bachelor of Arts in English and Master of Arts
+                in Communication from St. Mary’s University in San Antonio,
+                Texas and a Ph.D. in Educational Administration from The
+                University of Texas at Austin.
               </p>
-              <p>
-                Beatrice graduated from Arizona State University summa cum laude
-                with her Bachelor of Arts in Organizational Leadership, and is
-                currently working towards a Masters in Data Analytics.
-              </p>
+              <p></p>
               <p>Consulting Specialties:</p>
             </Bio>
             <SpecialtyWrapper className="flow">
-              <Specialty>Federal Student Aid (Title IV)</Specialty>
-              <Specialty>Strategic Enrollment Management</Specialty>
-              <Specialty>Quality Assurance</Specialty>
-              <Specialty>Data Governance</Specialty>
+              <Specialty>Leadership and culture development</Specialty>
+              <Specialty>Strategic planning and initiatives</Specialty>
               <Specialty>
-                Institutional effectiveness and data analysis
+                Interest-based problem-solving and negotiation
               </Specialty>
+              <Specialty>Data-informed decision-making</Specialty>
+              <Specialty>Academic affairs and accreditation</Specialty>
+              <Specialty>Institutional effectiveness</Specialty>
             </SpecialtyWrapper>
           </Content>
         </Background>
