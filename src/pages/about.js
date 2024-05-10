@@ -8,7 +8,6 @@ import { PageHeadline } from "../components/Headlines";
 import { NonFullWidth } from "../components/MainLayout/ComponentWrapper";
 import Annette from "../components/Profiles/Annette";
 import Melissa from "../components/Profiles/Melissa";
-import Lauralee from "../components/Profiles/Lauralee";
 
 const About = () => {
   return (
@@ -53,7 +52,6 @@ const About = () => {
           </Container>
           <Annette />
           <Melissa />
-          <Lauralee />
         </NonFullWidth>
       </Layout>
     </>
