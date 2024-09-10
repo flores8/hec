@@ -33,15 +33,15 @@ const Annette = () => {
               <p>
                 Annette has 25 years of experience in higher education
                 administration with a demonstrated track record in successful
-                leadership and executive roles in financial aid administration,
-                compliance, and operations. Annette’s expertise includes all
-                areas of financial aid operations and compliance, system
-                automation, streamlined processing and communications to ensure
-                optimal student service, while meeting applicable compliance and
-                Federal Student Aid administrative capability requirements.
-                Annette has helped countless students across the country access
-                higher education through financial aid, scholarship, and grant
-                opportunities.
+                leadership and executive roles in higher education executive
+                administration, compliance, and operations. Annette’s expertise
+                includes all areas of student service operations and compliance,
+                system automation, streamlined processing and communications to
+                ensure optimal student service, while meeting applicable
+                compliance and Federal Student Aid administrative
+                capabilityrequirements. Annette has helped countless students
+                across the country access higher education through financial
+                aid, scholarship, and grant opportunities.
               </p>
               <p>
                 Annette has extensive experience in higher education, profit and
@@ -72,11 +72,20 @@ const Annette = () => {
                 from Saint Leo University, and is currently PhD Candidate in
                 Higher Education Leadership with Grand Canyon University.
               </p>
+              <p>
+                When Annette isn’t excelling in her career, you can find her
+                exploring nature on horseback, conquering rugged terrains on her
+                dirt bike, or embarking on scenic hikes. Annette’s love for the
+                great outdoors also extends to the water, where she enjoys the
+                thrill of kayaking. Her adventurous spirit and love for travel
+                fuels her creativity and drive both personally and
+                professionally.
+              </p>
               <p>Consulting Specialties:</p>
             </Bio>
             <SpecialtyWrapper className="flow">
               <Specialty>Federal Student Aid (Title IV)</Specialty>
-              <Specialty>Enrollment Services</Specialty>
+              <Specialty>Student Services</Specialty>
               <Specialty>
                 Emergency relief funding, administration, and compliance
               </Specialty>

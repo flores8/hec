@@ -7,6 +7,8 @@ import { font, gray, spacing, screen, width } from "../utils";
 import { PageHeadline } from "../components/Headlines";
 import { NonFullWidth } from "../components/MainLayout/ComponentWrapper";
 import Annette from "../components/Profiles/Annette";
+import Alanna from "../components/Profiles/Alanna";
+import Robert from "../components/Profiles/Robert";
 import Melissa from "../components/Profiles/Melissa";
 
 const About = () => {
@@ -20,14 +22,12 @@ const About = () => {
             headlinePunctuation={"."}
             headlinePeriod={"yellow"}
             subtitle={
-              "It's all in the name. When it comes to compliance, every institution needs a game plan. Setting direction. Building capacity. Due diligence, assessment, assurance. At HEC Game Plan, we demystify compliance and advance administrative proficiency across higher education."
+              "It's all in the name. When it comes to compliance, every institution needs a game plan. Setting direction. Building capacity. Due diligence, assessment, assurance. At HEC, we demystify compliance and advance administrative proficiency across higher education."
             }
             includeLink={"false"}
           />
           <Container>
-            <PageHeadline>
-              A little more about our values and services.
-            </PageHeadline>
+            <PageHeadline>A little more about our values.</PageHeadline>
           </Container>
           <Subtitle className="flow">
             <p>
@@ -52,6 +52,8 @@ const About = () => {
           </Container>
           <Annette />
           <Melissa />
+          <Alanna />
+          <Robert />
         </NonFullWidth>
       </Layout>
     </>

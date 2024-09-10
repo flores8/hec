@@ -13,7 +13,7 @@ const CallToAction = () => {
           Need help with your Higher Education Emergency Relief Funding (HEERF)?
         </Title>
         <Subtitle>
-          Are you struggling with reporting or administreing your CARES, CRRSA,
+          Are you struggling with reporting or Administering. your CARES, CRRSA,
           or ARPA money? We can help. Sign up to get a free consultation.
         </Subtitle>
         <Form button={"Get a free consultation"} />
