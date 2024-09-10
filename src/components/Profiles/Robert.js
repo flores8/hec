@@ -27,7 +27,7 @@ const Robert = () => {
         <Background>
           <Content>
             <Name>Robert</Name>
-            <Title>??</Title>
+            {/* <Title>??</Title> */}
             <Bio className="flow">
               <p>
                 Robert has managed mid to large size projects— managing multiple
