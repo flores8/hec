@@ -27,7 +27,7 @@ const Alanna = () => {
         <Background>
           <Content>
             <Name>Alanna Andersen</Name>
-            {/* <Title>??</Title> */}
+            <Title>Project Manager</Title>
             <Bio className="flow">
               <p>
                 Alanna brings a wealth of experience and a diverse skill set to
